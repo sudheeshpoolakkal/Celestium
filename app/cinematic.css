@@ -1,0 +1,402 @@
+/* Cinematic aircraft and mission chapters, built around original concept artwork. */
+.aerospace-hero {
+  min-height: max(730px, 100svh);
+  display: flex;
+  flex-direction: column;
+  background: #07131b;
+}
+.hero-v2-image {
+  position: absolute;
+  inset: 0;
+  height: auto;
+  margin: 0;
+}
+.hero-v2-image > img {
+  object-fit: cover;
+  object-position: right center;
+  margin: 0;
+}
+.hero-v2-image::after {
+  inset: 0;
+  background:
+    linear-gradient(180deg, #030b12bc, transparent 24%, transparent 72%, #030b12f0),
+    linear-gradient(90deg, #07121cec 0%, #07121cb0 27%, #07121c35 55%, transparent 78%);
+}
+.hero-v2-heading {
+  display: block;
+  padding-top: clamp(150px, 17svh, 205px);
+  padding-bottom: 135px;
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+.hero-program-introduction {
+  font-family: var(--mono);
+  color: #eff5ed;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  margin: 0 0 27px;
+}
+.hero-v2-heading h1.hero-program-name {
+  font-size: clamp(56px, 4.85vw, 94px);
+  text-transform: uppercase;
+  line-height: 0.98;
+  font-weight: 550;
+  letter-spacing: -0.045em;
+  max-width: 900px;
+}
+.hero-v2-heading h1 > span {
+  color: #f1f5ed;
+}
+.hero-v2-description {
+  max-width: 420px;
+  font-size: 13px;
+  line-height: 1.85;
+  margin: 28px 0 0;
+  color: #e6ede8;
+}
+.hero-program-action {
+  margin-top: 27px;
+}
+.hero-program-action .action-link {
+  color: #f7faf6;
+  font-size: 12px;
+  border-color: #ffffff82;
+}
+.hero-v2-bottom {
+  position: relative;
+  padding-block: 22px 27px;
+  border-color: #ffffff50;
+}
+.hero-v2-bottom .hero-aircraft-title {
+  font-size: 27px;
+}
+.hero-v2-bottom .kicker {
+  color: #e2eae4;
+}
+.hero-aircraft-action {
+  padding: 16px 25px;
+  border: 1px solid #ffffff80;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  background: #07131b30;
+  transition:
+    background 200ms,
+    color 200ms;
+}
+.hero-aircraft-action:hover {
+  background: white;
+  color: #10202a;
+}
+.hero-artwork-note {
+  right: 56px;
+  bottom: 124px;
+  color: #edf3ec;
+}
+.cinematic-story {
+  position: relative;
+  min-height: max(780px, 90svh);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: #07131b;
+  color: #fff;
+}
+.cinematic-story-image {
+  object-fit: cover;
+  object-position: right center;
+}
+.cinematic-story-shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, #07131bf2 0%, #07131bd9 25%, #07131b5e 52%, transparent 80%),
+    linear-gradient(180deg, #07131b85, transparent 22%, transparent 68%, #07131be6);
+}
+.cinematic-story-content {
+  position: relative;
+  z-index: 1;
+  padding-block: 125px;
+}
+.cinematic-story .kicker {
+  color: #e4ede5;
+  font-size: 10px;
+  margin-bottom: 25px;
+}
+.cinematic-story h1,
+.cinematic-story h2 {
+  font-size: clamp(58px, 5.8vw, 100px);
+  line-height: 1.02;
+  font-weight: 550;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  max-width: 750px;
+  color: #fff;
+  margin: 0;
+}
+.cinematic-story-description {
+  max-width: 425px;
+  color: #e5ece7;
+  margin: 29px 0 30px;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.cinematic-story-actions {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cinematic-story-actions .action-button {
+  color: #fff;
+  background: #07131b55;
+  border: 1px solid #ffffff91;
+  padding: 17px 24px;
+  font-size: 12px;
+}
+.cinematic-story-actions .action-button:hover {
+  background: #fff;
+  color: #11232b;
+}
+.cinematic-story-actions .action-link {
+  color: #eff5ed;
+  border-color: #ffffff70;
+  font-size: 12px;
+}
+.cinematic-story-foot {
+  position: absolute;
+  z-index: 1;
+  bottom: 26px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: var(--mono);
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #e2eae3;
+}
+.aircraft-cinematic-hero {
+  min-height: max(820px, 100svh);
+}
+.aircraft-cinematic-hero .cinematic-story-shade {
+  background:
+    linear-gradient(180deg, #030b12c2, transparent 23%, transparent 70%, #07131bf5),
+    linear-gradient(90deg, #07131bf2 0%, #07131bc7 26%, #07131b45 54%, transparent 83%);
+}
+.medical-hero-image {
+  object-position: right center;
+}
+.medical-hero-shade {
+  background:
+    linear-gradient(180deg, #051219db 0, #051219bc 90px, transparent 210px),
+    linear-gradient(90deg, #051219f5 0%, #071219d9 33%, #07121975 58%, transparent 87%),
+    linear-gradient(0deg, #051219e6, transparent 35%);
+}
+@media (min-width: 1000px) and (max-height: 850px) {
+  .aerospace-hero {
+    min-height: max(730px, 100svh);
+  }
+  .hero-v2-heading {
+    padding-top: 140px;
+    padding-bottom: 55px;
+  }
+  .hero-v2-heading h1.hero-program-name {
+    font-size: clamp(54px, 4.6vw, 70px);
+  }
+  .hero-v2-description {
+    font-size: 12px;
+  }
+  .hero-artwork-note {
+    bottom: 116px;
+  }
+}
+@media (max-width: 999px) {
+  .hero-v2-heading {
+    padding-top: 140px;
+  }
+  .hero-artwork-note {
+    right: 36px;
+  }
+  .cinematic-story h1,
+  .cinematic-story h2 {
+    font-size: clamp(52px, 7.2vw, 76px);
+  }
+  .cinematic-story-actions {
+    gap: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .aerospace-hero {
+    min-height: max(880px, 100svh);
+  }
+  .hero-v2-heading {
+    padding-top: 126px;
+    padding-bottom: 300px;
+    flex: 1;
+  }
+  .hero-program-introduction {
+    font-size: 10px;
+    margin-bottom: 22px;
+  }
+  .hero-v2-heading h1.hero-program-name {
+    font-size: clamp(39px, 10.5vw, 60px);
+    max-width: 100%;
+    line-height: 1.02;
+  }
+  .hero-v2-description {
+    max-width: 380px;
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  .hero-program-action {
+    margin-top: 18px;
+  }
+  .hero-v2-image {
+    inset: auto auto 82px -35%;
+    width: 135%;
+    height: auto;
+    aspect-ratio: 1672 / 941;
+  }
+  .hero-v2-image > img {
+    object-position: center;
+  }
+  .hero-v2-image::after {
+    background: linear-gradient(180deg, #07131b, transparent 34%, transparent 70%, #07131b);
+  }
+  .hero-v2-bottom {
+    padding-block: 19px 22px;
+    gap: 15px;
+  }
+  .hero-v2-bottom .hero-aircraft-title {
+    font-size: 24px;
+  }
+  .hero-v2-bottom .kicker {
+    font-size: 6px;
+  }
+  .hero-aircraft-action {
+    padding: 12px;
+    font-size: 10px;
+    gap: 12px;
+  }
+  .hero-aircraft-action > svg {
+    width: 16px;
+    height: 16px;
+  }
+  .hero-artwork-note {
+    right: 20px;
+    bottom: 112px;
+    font-size: 6px;
+  }
+  .cinematic-story {
+    min-height: 790px;
+    align-items: flex-end;
+  }
+  .cinematic-story-image {
+    width: 135% !important;
+    height: auto !important;
+    aspect-ratio: 1672 / 941;
+    left: -35% !important;
+    top: 0 !important;
+    bottom: auto !important;
+    max-width: none;
+    object-fit: cover;
+    mask-image: linear-gradient(#000 55%, transparent);
+  }
+  .home-flight-story .cinematic-story-image {
+    width: 160% !important;
+    left: -60% !important;
+  }
+  .cinematic-story-shade {
+    background: linear-gradient(180deg, #07131b26, transparent 18%, #07131b 45%, #07131b);
+  }
+  .cinematic-story-content {
+    padding-top: 360px;
+    padding-bottom: 82px;
+  }
+  .cinematic-story .kicker {
+    font-size: 8px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+  }
+  .cinematic-story h1,
+  .cinematic-story h2 {
+    font-size: clamp(39px, 10.5vw, 54px);
+  }
+  .cinematic-story-description {
+    max-width: none;
+    font-size: 13px;
+    margin: 23px 0;
+    line-height: 1.85;
+  }
+  .cinematic-story-actions {
+    gap: 21px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cinematic-story-actions .action-button {
+    padding: 15px 20px;
+  }
+  .cinematic-story-foot {
+    bottom: 23px;
+    font-size: 6px;
+    gap: 16px;
+  }
+  .aircraft-cinematic-hero {
+    min-height: 850px;
+  }
+  .aircraft-cinematic-hero .cinematic-story-shade {
+    background: linear-gradient(180deg, #07131be6, transparent 20%, #07131b 45%, #07131b);
+  }
+  .medical-hero {
+    min-height: 940px;
+    padding: 365px 0 120px;
+    background: #07131b;
+  }
+  .medical-hero-image {
+    width: 135% !important;
+    height: auto !important;
+    aspect-ratio: 1672 / 941;
+    top: 40px !important;
+    bottom: auto !important;
+    left: -35% !important;
+    max-width: none;
+    object-fit: cover;
+    mask-image: linear-gradient(#000 55%, transparent);
+  }
+  .medical-hero-shade {
+    background: linear-gradient(180deg, #07131bcc, transparent 130px, transparent 220px, #07131b 340px);
+  }
+  .medical-breadcrumb {
+    margin-bottom: 30px;
+  }
+  .medical-hero h1 {
+    font-size: clamp(42px, 11.5vw, 58px);
+  }
+  .medical-hero-description {
+    font-size: 13px;
+    line-height: 1.85;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 360px) {
+  .aerospace-hero {
+    min-height: 930px;
+  }
+  .hero-v2-bottom .hero-aircraft-title {
+    font-size: 21px;
+  }
+  .hero-aircraft-action {
+    font-size: 9px;
+    padding: 10px;
+  }
+  .cinematic-story {
+    min-height: 840px;
+  }
+}

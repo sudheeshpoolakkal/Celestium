@@ -1,0 +1,94 @@
+/* Keep the editorial site and route navigation useful without JavaScript. */
+.site-header {
+  position: relative;
+}
+.header-dark {
+  background: #131313;
+}
+.header-inner {
+  flex-wrap: wrap;
+  padding-block: 24px;
+}
+.site-menu-toggle,
+.primary-navigation .mobile-nav-arrow,
+.mobile-menu-note,
+.primary-navigation .mobile-brief,
+.module-tabs,
+.launch-preview,
+.flight-controls,
+.trade-selector,
+.studio-loading {
+  display: none;
+}
+.primary-navigation {
+  display: flex;
+  position: static;
+  inset: auto;
+  height: auto;
+  width: 100%;
+  order: 3;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  background: transparent;
+  color: inherit;
+}
+.primary-navigation > a {
+  font-size: 14px;
+  padding: 9px 0;
+  border: 0;
+  letter-spacing: 0;
+}
+.primary-navigation > a::after {
+  display: none;
+}
+.header-dark .primary-navigation > a[aria-current="page"] {
+  color: #c6d6c2;
+}
+.hero-v2-heading {
+  padding-top: 60px;
+}
+.editorial-intro {
+  padding-top: 60px;
+}
+.energy-path::after {
+  content: "Liquid hydrogen → Fuel cell → DC bus → Both duct motors. Battery buffer → DC bus.";
+  grid-column: 1 / -1;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #506453;
+  margin-top: 25px;
+}
+.product-section-nav {
+  top: 0;
+}
+.medical-navigation {
+  top: 0;
+  position: relative;
+}
+.medical-navigation > div {
+  flex-wrap: wrap;
+  overflow: visible;
+  gap: 0 24px;
+}
+.medical-hero {
+  padding-top: 60px;
+}
+/* Celestium navigation falls back to real page links without JavaScript. */
+.site-header.celestium-header{position:relative;height:auto;background:#101b1a}
+.c-header-inner{height:auto;padding-block:22px}
+.c-primary-nav,.c-header-actions,.c-hero-slides,.c-slideshow-play,.c-transition-tabs,.c-angle-control,.c-product-filters,.c-product-count,.c-product-item-footer,.c-filter-bar,.c-video-toggle{display:none}
+.c-noscript-nav{display:flex;flex-wrap:wrap;gap:10px 24px;padding:0 28px 24px;font-size:12px}
+.c-noscript-nav>a{text-decoration:none;padding-block:5px}
+.c-home-hero-copy{padding-top:60px}
+.c-home-hero-top{top:28px}
+.c-home-hero-bottom{bottom:40px}
+.c-home-hero{min-height:670px}
+.c-flight-hero{padding-top:65px}
+.c-page-bar,.product-section-nav,.medical-navigation{position:relative;top:0}
+.c-journal-heading{padding-top:65px}
+.c-enquiry-form{display:none}
+html{scroll-padding-top:0}
+
+.c-photo-open{pointer-events:none}.c-photo-inspect{display:none}

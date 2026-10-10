@@ -1,0 +1,13 @@
+# Hydrogen-electric powertrain artwork
+
+Generated with built-in imagegen, using the original Taraka dawn scene as a design reference. New prospective cutaway, visually inspected for a coherent twin-duct configuration and visible watermarks. Component placement is illustrative, not released installation geometry.
+
+Master: `assets/artwork/taraka-powertrain-cutaway-v1.png`
+
+Website: `public/images/taraka-powertrain-cutaway-v1.webp`
+
+Presentation reference: https://stellaraircraft.com/stellar-jet/hydrogen-electric-powertrain/
+
+## Exact prompt
+
+Use case: stylized-concept. Create an original premium aerospace industrial cutaway visualization for the MALUS research website. The referenced image is ONLY an aircraft design/material reference, not an edit target. Show the SAME Taraka X-1 broad white medical aircraft with exactly TWO large circular shrouded tilting ducted fans on short shoulder pylons, dark glazed cockpit, twin upright H-tail fins, restrained sage trim. Elevated three-quarter side view, nose pointing lower left, whole aircraft contained within wide 16:9 frame, aircraft spanning lower two-thirds with generous dark negative space above and upper left for an HTML heading. Seamless very dark midnight/navy studio background, no ground or building. The fuselage shell is partly translucent graphite-blue and partly peeled away, revealing a carefully composed prospective hydrogen-electric architecture: silver cylindrical insulated hydrogen vessel in the aft lower equipment region; a compact rectangular fuel-cell stack with fine metallic plates below the cabin; flat orange-copper battery modules in the belly; controlled teal power cables linking a common electrical distribution box to electric motor hubs within BOTH duct fans. Keep the dedicated medical cabin above the underfloor equipment as an identifiable separate protected volume, simple unoccupied clinical seats and empty patient litter visible, single pilot cockpit forward. Coherent space allocation rather than loose floating components. Crisp machined components, believable high-end engineering visualization, subtle teal rim lighting, white composite exterior edges, natural controlled reflections, restrained orange battery highlights, quiet dramatic studio atmosphere. Both ducts and their two motor hubs clearly identifiable, fan blades stopped crisp. This is a conceptual integration illustration, not released CAD or evidence of hardware. Do not copy Stellar or any reference-company aircraft. No extra rotors, no conventional helicopter rotor, no extra engines, no text, no labels, no leader lines, no watermark, no Gemini mark, no corner symbols, no signatures, no other company logos. Wide landscape 16:9, high detail.

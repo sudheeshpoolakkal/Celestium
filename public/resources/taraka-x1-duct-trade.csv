@@ -1,0 +1,6 @@
+duct_diameter_m,nominal_takeoff_mass_kg,corrected_disk_loading_pa,hover_power_kw,battery_mass_kg,status
+2.4,1744,1891,747,223,preliminary_original_sizing_before_tank_vessel_correction
+2.6,1596,1475,599,164,preliminary_original_sizing_before_tank_vessel_correction
+2.8,1537,1224,495,123,preliminary_original_sizing_before_tank_vessel_correction
+3.0,1425,989,433,99,preliminary_original_sizing_before_tank_vessel_correction
+3.2,1372,837,381,78,preliminary_original_sizing_before_tank_vessel_correction

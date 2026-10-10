@@ -1,0 +1,981 @@
+:root {
+  --bg: #f6f7f4;
+  --bg-2: #e9ede8;
+  --ink: #20282c;
+  --muted: #5e696d;
+  --line: #d6dcd7;
+  --accent: #bf5837;
+  --accent-ink: #a64428;
+  --accent-wash: #efe0d5;
+  --ice: #c9532c;
+  --blueprint-bg: #eef1ec;
+  --sans: var(--font-sans), "Avenir Next", "Segoe UI", sans-serif;
+  --mono: var(--font-mono), ui-monospace, monospace;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  color-scheme: light;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: inherit;
+}
+button,
+input {
+  font: inherit;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 0;
+}
+p {
+  margin: 0 0 16px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 500;
+}
+.mono,
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 24px;
+  color: var(--accent-ink);
+}
+.status-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  flex: none;
+}
+.skip {
+  position: fixed;
+  left: 16px;
+  top: -100px;
+  z-index: 100;
+  padding: 12px 20px;
+  color: white;
+  background: var(--ink);
+}
+.skip:focus {
+  top: 12px;
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-block: 8px;
+  border-bottom: 1px solid currentColor;
+  line-height: 1.4;
+}
+.text-link > span:last-child {
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+.text-link:hover > span:last-child {
+  transform: translate(3px, -3px);
+}
+h2 {
+  font-size: clamp(40px, 4.7vw, 70px);
+  letter-spacing: -0.055em;
+  line-height: 1.07;
+}
+.reveal-ready {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.75s,
+    transform 0.75s;
+}
+.reveal-ready.revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* The module drawing changes with the selected mission. */
+.module-explorer {
+  border: 1px solid var(--line);
+}
+.module-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+.module-tabs button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 21px 28px;
+  font-size: 16px;
+  text-align: left;
+  border: 0;
+  color: var(--muted);
+  background: transparent;
+  position: relative;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+.module-tabs button + button {
+  border-left: 1px solid var(--line);
+}
+.module-tabs button[aria-selected="true"] {
+  color: var(--accent-ink);
+  background: var(--accent-wash);
+}
+.module-tabs button[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: var(--accent);
+}
+.module-tabs button:hover {
+  background: #e8e9df;
+  color: var(--ink);
+}
+.module-tabs .mono {
+  font-size: 9px;
+}
+.module-tab-arrow {
+  margin-left: auto;
+  font-size: 22px;
+}
+.module-content {
+  display: grid;
+  grid-template-columns: 1.28fr 1fr;
+}
+.module-blueprint {
+  background: var(--blueprint-bg);
+  position: relative;
+  padding: 25px 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blueprint-label {
+  font-size: 8px;
+  color: #5f6959;
+}
+.module-drawing {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.blueprint-legend {
+  display: flex;
+  gap: 20px;
+  font-family: var(--mono);
+  font-size: 8px;
+  color: #606956;
+  text-transform: uppercase;
+}
+.blueprint-legend span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.blueprint-legend i {
+  width: 12px;
+  height: 1px;
+  background: var(--ink);
+}
+.blueprint-legend span:last-child i {
+  background: var(--accent);
+}
+.module-description {
+  padding: 37px 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: module-in 0.3s ease;
+}
+.module-symbol {
+  color: var(--accent);
+  font-size: 41px;
+  line-height: 1;
+  margin-bottom: 22px;
+  font-weight: 300;
+}
+.module-description .eyebrow {
+  font-size: 9px;
+  margin-bottom: 12px;
+}
+.module-description h3 {
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  max-width: 325px;
+}
+.module-description > p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 330px;
+}
+.module-features {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding-block: 15px 24px;
+  font-family: var(--mono);
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #56634f;
+}
+.module-features span::before {
+  content: "+";
+  color: var(--accent);
+  margin-right: 10px;
+}
+.module-description > .text-link {
+  align-self: flex-start;
+  font-size: 12px;
+}
+.architecture-system {
+  padding: 20px 25px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1.4fr repeat(4, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+.architecture-system > .mono {
+  font-size: 8px;
+  color: var(--muted);
+}
+.architecture-system > :not(.mono) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+}
+@keyframes module-in {
+  from {
+    opacity: 0.4;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* A contained interactive aircraft stage. */
+.aircraft-preview {
+  position: relative;
+  aspect-ratio: 2.08;
+  overflow: hidden;
+  background: #eff0e9;
+}
+.aircraft-preview > img,
+.preview-fallback > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 58%;
+}
+.aircraft-preview.is-live {
+  background: #090b10;
+}
+.preview-top {
+  position: absolute;
+  inset: 24px 28px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #414b40;
+  pointer-events: none;
+}
+.preview-top > .mono {
+  font-size: 8px;
+}
+.preview-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 8px;
+  text-transform: uppercase;
+}
+.is-live .preview-top,
+.is-live .preview-hint {
+  color: #b6c5b3;
+}
+.preview-hint {
+  position: absolute;
+  left: 28px;
+  bottom: 22px;
+  font-size: 8px;
+  pointer-events: none;
+}
+.launch-preview {
+  position: absolute;
+  inset: auto 28px 25px auto;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  text-align: left;
+  border: 0;
+  background: #f6f5ef;
+  color: var(--ink);
+  padding: 16px 22px;
+  box-shadow: 0 4px 24px #171e1710;
+  transition: background 0.2s;
+}
+.launch-preview:hover {
+  background: #e8e9df;
+}
+.play-icon {
+  font-size: 28px;
+  line-height: 1;
+  color: var(--accent);
+}
+.launch-preview > span:nth-child(2) {
+  font-size: 14px;
+}
+.launch-preview .mono {
+  display: block;
+  font-size: 7px;
+  margin-top: 3px;
+  color: #606956;
+}
+.launch-preview > span:last-child {
+  font-size: 24px;
+  margin-left: 22px;
+}
+.preview-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #c1c9ba;
+  background: #090b10;
+}
+.loading-ring {
+  border: 1px solid #65725e;
+  border-top-color: #edb48f;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.preview-fallback {
+  height: 100%;
+  position: relative;
+}
+.preview-fallback p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f6f5efee;
+  color: #242a25;
+  padding: 15px;
+  font-size: 12px;
+  margin: 0;
+}
+.studio-loading {
+  position: relative;
+  min-height: 100svh;
+}
+.flight-controls {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr 90px;
+  border: 1px solid var(--line);
+  margin-top: 0;
+}
+.flight-buttons {
+  display: flex;
+  border-right: 1px solid var(--line);
+}
+.flight-buttons button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  background: transparent;
+  color: #b6c1ad;
+  flex: 1;
+  font-size: 15px;
+  padding: 19px 17px;
+  text-align: left;
+  transition: background 0.2s;
+  position: relative;
+}
+.flight-buttons button + button {
+  border-left: 1px solid var(--line);
+}
+.flight-buttons button > .mono:first-child {
+  font-size: 8px;
+}
+.flight-buttons button[aria-pressed="true"] {
+  background: #3c4738;
+  color: #fff;
+}
+.flight-buttons button[aria-pressed="true"]::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 2px;
+  background: #dea789;
+}
+.flight-buttons button:hover {
+  background: #3c4738;
+}
+.flight-angle {
+  position: absolute;
+  right: 13px;
+  bottom: 24px;
+  font-size: 8px;
+  opacity: 0.85;
+}
+.flight-explanation {
+  padding: 20px 28px;
+}
+.flight-explanation strong {
+  font-size: 13px;
+  font-weight: 500;
+}
+.flight-explanation p {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 5px 0 0;
+  color: var(--muted);
+}
+.full-studio-link {
+  border-left: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.full-studio-link .mono {
+  font-size: 7px;
+}
+.full-studio-link:hover {
+  background: #3c4738;
+}
+
+/* The existing full flow studio uses its own instrument palette. */
+.stage-fill {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.stage-fill canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none;
+}
+.studio {
+  --ink: #e8e4dc;
+  --muted: #9da7b4;
+  --line: #ffffff26;
+  --ice: #b7e3ff;
+  color: var(--ink);
+  position: relative;
+  min-height: 100svh;
+  background: #090b10;
+  padding-top: 90px;
+  color-scheme: dark;
+}
+.studio-view {
+  position: relative;
+  height: calc(100svh - 90px);
+  min-height: 600px;
+}
+.stage-wait {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #9da7b4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  font-size: 10px;
+  pointer-events: none;
+}
+.hud {
+  position: absolute;
+  z-index: 5;
+  width: min(290px, calc(100vw - 32px));
+  padding: 18px;
+  background: rgba(8, 12, 18, 0.83);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(16px);
+}
+.hud-left {
+  top: 110px;
+  left: 20px;
+}
+.hud-right {
+  top: 110px;
+  right: 20px;
+}
+.hud-kicker {
+  margin: 0 0 10px;
+  color: var(--ice);
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.hud h1 {
+  margin: 0 0 8px;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -0.04em;
+}
+.hud-note,
+.keys,
+.readout {
+  color: var(--muted);
+  font-size: 11px;
+}
+.slider {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 12px;
+  margin: 14px 0;
+}
+.slider span {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.slider strong {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.slider input {
+  grid-column: 1 / -1;
+  width: 100%;
+  accent-color: #9fd4f5;
+}
+.seg,
+.toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 12px;
+}
+.seg button,
+.toggle {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  padding: 7px 9px;
+  border-radius: 0;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+.seg button[aria-pressed="true"],
+.toggle.on {
+  background: var(--ink);
+  color: #14160f;
+  border-color: var(--ink);
+}
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.legend i {
+  flex: 1;
+  height: 4px;
+  background: linear-gradient(90deg, #17263d, #1c518e, #2890c6, #8ee7ff, #f7fbff, #ffb15a);
+}
+.strip {
+  position: absolute;
+  z-index: 5;
+  left: 20px;
+  right: 20px;
+  bottom: 16px;
+  margin: 0;
+  padding: 12px 18px;
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  background: rgba(8, 12, 18, 0.85);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(16px);
+}
+.strip span {
+  display: block;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.strip strong {
+  font-weight: 400;
+  font-size: 20px;
+  white-space: nowrap;
+}
+.tag {
+  pointer-events: none;
+  background: rgba(8, 12, 18, 0.85);
+  border: 1px solid #ffffff26;
+  color: #e8e4dc;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.07em;
+  padding: 5px 8px;
+  white-space: nowrap;
+}
+@media (max-width: 1100px) {
+  .module-description {
+    padding: 30px;
+  }
+  .module-description h3 {
+    font-size: 28px;
+  }
+  .module-tabs button {
+    padding: 18px;
+    gap: 13px;
+    font-size: 14px;
+  }
+  .flight-controls {
+    grid-template-columns: 1.2fr 1fr 72px;
+  }
+  .flight-buttons button {
+    padding: 19px 12px;
+    font-size: 13px;
+  }
+  .flight-angle {
+    right: 9px;
+    font-size: 7px;
+  }
+  .flight-explanation {
+    padding: 18px;
+  }
+  .hud {
+    width: 252px;
+  }
+}
+@media (max-width: 800px) {
+  h2 {
+    font-size: 42px;
+  }
+  .module-content {
+    grid-template-columns: 1.1fr 1fr;
+  }
+  .module-description {
+    padding: 25px;
+  }
+  .module-description h3 {
+    font-size: 25px;
+  }
+  .module-description > p {
+    font-size: 12px;
+  }
+  .module-symbol {
+    margin-bottom: 15px;
+  }
+  .module-blueprint {
+    padding: 20px 15px;
+  }
+  .blueprint-legend {
+    flex-direction: column;
+    gap: 5px;
+    font-size: 7px;
+  }
+  .architecture-system {
+    padding: 18px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .architecture-system > .mono {
+    grid-column: 1 / -1;
+    padding-bottom: 10px;
+  }
+  .architecture-system > :not(.mono) {
+    padding-left: 10px;
+    font-size: 9px;
+  }
+  .architecture-system > span:nth-child(2) {
+    border: 0;
+    padding-left: 0;
+  }
+  .aircraft-preview {
+    aspect-ratio: 1.75;
+  }
+  .flight-controls {
+    grid-template-columns: 1fr 70px;
+  }
+  .flight-buttons {
+    grid-column: 1 / -1;
+    border-bottom: 1px solid var(--line);
+    border-right: 0;
+  }
+  .flight-buttons button {
+    padding: 17px 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  .flight-angle {
+    position: static;
+    margin-left: auto;
+  }
+  .studio {
+    padding-top: 74px;
+  }
+  .studio-view {
+    height: 65svh;
+    min-height: 380px;
+  }
+  .hud-left,
+  .hud-right,
+  .strip {
+    position: static;
+    width: auto;
+    margin: 15px;
+  }
+  .hud-left,
+  .hud-right {
+    display: inline-block;
+    width: calc(50% - 23px);
+    vertical-align: top;
+  }
+  .hud-right {
+    margin-left: 0;
+  }
+  .strip {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 560px) {
+  html {
+    scroll-padding-top: 94px;
+  }
+  h2 {
+    font-size: 43px;
+  }
+  .module-tabs button {
+    padding: 14px 10px;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 4px;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  .module-tabs button > .mono {
+    flex-basis: 100%;
+    font-size: 7px;
+  }
+  .module-tab-arrow {
+    display: none;
+  }
+  .module-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .module-blueprint {
+    padding: 19px 15px 16px;
+  }
+  .blueprint-label {
+    font-size: 7px;
+  }
+  .blueprint-legend {
+    flex-direction: row;
+    gap: 15px;
+    font-size: 6px;
+  }
+  .module-description {
+    padding: 26px;
+    min-height: 330px;
+  }
+  .module-symbol {
+    display: none;
+  }
+  .module-description h3 {
+    font-size: 30px;
+  }
+  .module-description > p {
+    font-size: 13px;
+  }
+  .module-features {
+    padding-block: 10px 20px;
+  }
+  .architecture-system {
+    gap: 9px;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+  }
+  .architecture-system > :not(.mono) {
+    font-size: 9px;
+    padding: 4px 0;
+    border: 0;
+  }
+  .aircraft-preview {
+    aspect-ratio: 1.2;
+  }
+  .aircraft-preview > img {
+    object-fit: cover;
+  }
+  .preview-top {
+    inset: 17px 16px auto;
+  }
+  .preview-top > .mono {
+    font-size: 6px;
+  }
+  .preview-status {
+    font-size: 6px;
+    gap: 4px;
+  }
+  .launch-preview {
+    bottom: 17px;
+    right: 16px;
+    left: 16px;
+    padding: 12px 17px;
+    gap: 14px;
+  }
+  .launch-preview > span:last-child {
+    margin-left: auto;
+  }
+  .launch-preview > span:nth-child(2) {
+    font-size: 12px;
+  }
+  .preview-hint {
+    left: 16px;
+    bottom: 14px;
+    font-size: 6px;
+  }
+  .flight-buttons button {
+    font-size: 12px;
+    padding: 18px 12px;
+    gap: 7px;
+  }
+  .flight-buttons button > .mono:first-child {
+    display: none;
+  }
+  .flight-angle {
+    font-size: 7px;
+  }
+  .flight-explanation {
+    padding: 17px;
+  }
+  .flight-explanation strong {
+    font-size: 12px;
+  }
+  .hud-left,
+  .hud-right {
+    display: block;
+    width: auto;
+    margin: 15px;
+  }
+  .studio-view {
+    min-height: 350px;
+  }
+  .strip {
+    gap: 16px 22px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal-ready {
+    opacity: 1;
+    transform: none;
+  }
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

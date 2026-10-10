@@ -1,0 +1,105 @@
+[
+  {
+    "id": "offshore-energy",
+    "path": "/media/bell/offshore-energy.webp",
+    "alt": "Bell 525 near an offshore energy platform",
+    "width": 714,
+    "height": 800,
+    "source": "https://www.bellflight.com/",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/69a03d87f9d953ed60756a8a_525-over-oil-rig.avif",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "88c58df93b7487dbf312af9799f633f1e941fa976b2d5505ca9e1fc28b2a3c61"
+  },
+  {
+    "id": "adventure-flight",
+    "path": "/media/bell/adventure-flight.webp",
+    "alt": "Bell 505 above an open desert landscape",
+    "width": 1200,
+    "height": 1072,
+    "source": "https://www.bellflight.com/",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/69a03d8702b78b1553454c61_adventure.avif",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "76225ff08a7b1a27dd6b814243eab2b095bef4011e3ad3c806af468fc301afa9"
+  },
+  {
+    "id": "public-safety",
+    "path": "/media/bell/public-safety.webp",
+    "alt": "Bell firefighting helicopter over a forest",
+    "width": 1200,
+    "height": 730,
+    "source": "https://www.bellflight.com/",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/69a03d8731e98c69b366000b_public-safety.avif",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "4972dc7eb06e4f34ef4c259f0c74b9cd374805267efc7b64ba83a7a8ee6ea4d3"
+  },
+  {
+    "id": "tiltrotor-island",
+    "path": "/media/bell/tiltrotor-island.webp",
+    "alt": "Bell tiltrotor concept above a coastal island",
+    "width": 1900,
+    "height": 1069,
+    "source": "https://www.bellflight.com/products/tiltrotor",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/6a501dc9eeed1a7eeec44686_mv75.jpg",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "130ba32f50595a69da31c81871d46584e8e348e4f7b3dfe0ae10eefba89489d1"
+  },
+  {
+    "id": "osprey-desert",
+    "path": "/media/bell/osprey-desert.webp",
+    "alt": "Bell Boeing MV-22 Osprey over a desert coastline",
+    "width": 1200,
+    "height": 816,
+    "source": "https://www.bellflight.com/products/tiltrotor",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/6a501e2e7e4bbabc1ab4192f_6237ee5d0cfe71f9cb4650b92249924e_mv22.avif",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "a0af96c963882be9bc07bded9ce7e227d72a4dddd1c0ccd748c31801f57eef17"
+  },
+  {
+    "id": "osprey-city",
+    "path": "/media/bell/osprey-city.webp",
+    "alt": "Bell Boeing V-22 above a city",
+    "width": 980,
+    "height": 654,
+    "source": "https://www.bellflight.com/products/tiltrotor",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/6a501f13996ea1f0fc566f6a_hmx1.jpg",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "af8c43bf6c53403582958d155711b9de2b312609bf91829c9d65f1fadd34e6d5"
+  },
+  {
+    "id": "rotorcraft-mountains",
+    "path": "/media/bell/rotorcraft-mountains.webp",
+    "alt": "Bell 525 in flight over a mountain landscape",
+    "width": 1900,
+    "height": 1267,
+    "source": "https://www.bellflight.com/products/bell-525",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/69cfa352420dae1aa983480d_bell-525-in-flight-over-green-desert-mountains---hero.jpg",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: visible cockpit figures or ambiguous occupant silhouettes. File removed from the website.",
+    "sha256": "f239b1fc29dc56f92a36a962aed10fa9bd5b4f5945c6d3188541ee6d5a849604"
+  },
+  {
+    "id": "rotorcraft-apron",
+    "path": "/media/bell/rotorcraft-apron.webp",
+    "alt": "Bell 525 on an apron",
+    "width": 1520,
+    "height": 1900,
+    "source": "https://www.bellflight.com/products/bell-525",
+    "originalUrl": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/69ca4b7c8c3ad9c930b3d917_bell-525-landed-at-bell---hero.avif",
+    "copyright": "Bell Textron Inc. / source owner",
+    "review": "Excluded during full-resolution review: potential pilot in cockpit. File removed from website.",
+    "sha256": "32324cb16f59a11b6a282b05a649b0f3a27bcf49845cea7e0add9a1302e97fdf"
+  },
+  {
+    "id": "rotorcraft-dusk",
+    "url": "https://cdn.prod.website-files.com/6978d5f2a9c9b84d0424a948/69ca4b7d71cfd2842ead2e8e_bell-525-at-sunset-landed---hero.avif",
+    "source": "https://www.bellflight.com/products/bell-525",
+    "alt": "Bell 525 parked at sunset",
+    "review": "Excluded: ground crew visible beside the parked aircraft. Never imported to public assets."
+  }
+]

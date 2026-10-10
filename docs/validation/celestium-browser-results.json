@@ -1,0 +1,887 @@
+{
+  "verifiedAtUTC": "2026-10-08T04:30:59.653947+00:00",
+  "productionBuildId": "ob--ngHEHyI8SkABtyv5h",
+  "preview": "http://127.0.0.1:3000",
+  "authoredRoutes": 71,
+  "topicPages": 40,
+  "journalArticles": 8,
+  "bellReferenceURLs": 338,
+  "bellAdaptationDestinations": 57,
+  "mediaImages": 16,
+  "mediaAnimations": 2,
+  "retainedMediaBytes": 4091830,
+  "mediaHashesVerified": true,
+  "checks": {
+    "productionBuild": "passed",
+    "typeCheck": "passed",
+    "siteData": "passed",
+    "flowRegression": "passed",
+    "builtHTMLAudit": "passed",
+    "allRoutesReachable": "passed"
+  },
+  "browser": {
+    "startTime": "2026-10-08T04:24:24.340Z",
+    "duration": 337647.229,
+    "expected": 107,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "cases": [
+    {
+      "name": "the complete route directory resolves without invented destinations",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 576,
+      "annotations": []
+    },
+    {
+      "name": "flight stories and mission tabs respond to user choices",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 2463,
+      "annotations": []
+    },
+    {
+      "name": "search finds a page and supports keyboard dismissal",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 2617,
+      "annotations": []
+    },
+    {
+      "name": "the aircraft catalogue filters and compares actual study perspectives",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 2076,
+      "annotations": []
+    },
+    {
+      "name": "tiltrotor and HSVTOL explain distinct flight modes",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1574,
+      "annotations": []
+    },
+    {
+      "name": "aircraft-only animations play on request and pause",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1224,
+      "annotations": []
+    },
+    {
+      "name": "an enquiry becomes a reviewable local download",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 813,
+      "annotations": []
+    },
+    {
+      "name": "journal filters and FAQs expose their content",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1338,
+      "annotations": []
+    },
+    {
+      "name": "new layouts remain within compact and tablet viewports",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 5693,
+      "annotations": []
+    },
+    {
+      "name": "expanded navigation and search remain accessible",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 3845,
+      "annotations": []
+    },
+    {
+      "name": "the image library classifies and inspects credited references",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 2642,
+      "annotations": []
+    },
+    {
+      "name": "the energy architecture explains interfaces and unresolved storage mass",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1920,
+      "annotations": []
+    },
+    {
+      "name": "topic reading paths include dedicated mission and research pages",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 980,
+      "annotations": []
+    },
+    {
+      "name": "every primary headline fits the smallest supported viewport",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 14793,
+      "annotations": []
+    },
+    {
+      "name": "the complete route directory resolves without invented destinations",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 560,
+      "annotations": []
+    },
+    {
+      "name": "flight stories and mission tabs respond to user choices",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2570,
+      "annotations": []
+    },
+    {
+      "name": "search finds a page and supports keyboard dismissal",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2350,
+      "annotations": []
+    },
+    {
+      "name": "the aircraft catalogue filters and compares actual study perspectives",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2744,
+      "annotations": []
+    },
+    {
+      "name": "tiltrotor and HSVTOL explain distinct flight modes",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1614,
+      "annotations": []
+    },
+    {
+      "name": "aircraft-only animations play on request and pause",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1622,
+      "annotations": []
+    },
+    {
+      "name": "an enquiry becomes a reviewable local download",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 3118,
+      "annotations": []
+    },
+    {
+      "name": "journal filters and FAQs expose their content",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1014,
+      "annotations": []
+    },
+    {
+      "name": "new layouts remain within compact and tablet viewports",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 9069,
+      "annotations": []
+    },
+    {
+      "name": "expanded navigation and search remain accessible",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 3513,
+      "annotations": []
+    },
+    {
+      "name": "the image library classifies and inspects credited references",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2177,
+      "annotations": []
+    },
+    {
+      "name": "the energy architecture explains interfaces and unresolved storage mass",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1721,
+      "annotations": []
+    },
+    {
+      "name": "topic reading paths include dedicated mission and research pages",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1136,
+      "annotations": []
+    },
+    {
+      "name": "every primary headline fits the smallest supported viewport",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 14602,
+      "annotations": []
+    },
+    {
+      "name": "the aircraft model loads on demand and changes configuration",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 8095,
+      "annotations": []
+    },
+    {
+      "name": "studio controls retain keyboard and subsystem behaviour",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 8786,
+      "annotations": []
+    },
+    {
+      "name": "WebGL-disabled browsers receive the aircraft introduction",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 3529,
+      "annotations": []
+    },
+    {
+      "name": "a reduced-motion model stays still and remains keyboard-inspectable",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 6249,
+      "annotations": []
+    },
+    {
+      "name": "the model pauses offscreen and beneath mobile navigation",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 9058,
+      "annotations": []
+    },
+    {
+      "name": "the inline model returns to its poster and restores focus",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 10667,
+      "annotations": []
+    },
+    {
+      "name": "inline airflow layers render and respond to flight configuration",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 7663,
+      "annotations": []
+    },
+    {
+      "name": "the aircraft model loads on demand and changes configuration",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 9018,
+      "annotations": []
+    },
+    {
+      "name": "studio controls retain keyboard and subsystem behaviour",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 7095,
+      "annotations": []
+    },
+    {
+      "name": "WebGL-disabled browsers receive the aircraft introduction",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 3386,
+      "annotations": []
+    },
+    {
+      "name": "a reduced-motion model stays still and remains keyboard-inspectable",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 6929,
+      "annotations": []
+    },
+    {
+      "name": "the model pauses offscreen and beneath mobile navigation",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 11941,
+      "annotations": []
+    },
+    {
+      "name": "the inline model returns to its poster and restores focus",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 7949,
+      "annotations": []
+    },
+    {
+      "name": "inline airflow layers render and respond to flight configuration",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 8472,
+      "annotations": []
+    },
+    {
+      "name": "/ renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1939,
+      "annotations": []
+    },
+    {
+      "name": "/program renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1907,
+      "annotations": []
+    },
+    {
+      "name": "/aircraft renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1805,
+      "annotations": []
+    },
+    {
+      "name": "/technology renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1677,
+      "annotations": []
+    },
+    {
+      "name": "/mission renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1880,
+      "annotations": []
+    },
+    {
+      "name": "/mission/cabin renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1773,
+      "annotations": []
+    },
+    {
+      "name": "/mission/operations renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1929,
+      "annotations": []
+    },
+    {
+      "name": "/research renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1883,
+      "annotations": []
+    },
+    {
+      "name": "/products renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1670,
+      "annotations": []
+    },
+    {
+      "name": "/products/tiltrotor renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1732,
+      "annotations": []
+    },
+    {
+      "name": "/innovation/hsvtol renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1857,
+      "annotations": []
+    },
+    {
+      "name": "/missions renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1649,
+      "annotations": []
+    },
+    {
+      "name": "/contact renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1345,
+      "annotations": []
+    },
+    {
+      "name": "/journal renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1452,
+      "annotations": []
+    },
+    {
+      "name": "/company renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1607,
+      "annotations": []
+    },
+    {
+      "name": "/support renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1637,
+      "annotations": []
+    },
+    {
+      "name": "/media-credits renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1502,
+      "annotations": []
+    },
+    {
+      "name": "/videos renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1964,
+      "annotations": []
+    },
+    {
+      "name": "/innovation/hydrogen-electric renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1790,
+      "annotations": []
+    },
+    {
+      "name": "/innovation/digital-engineering renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1608,
+      "annotations": []
+    },
+    {
+      "name": "/support/training/pilot renders a readable, accessible page",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1812,
+      "annotations": []
+    },
+    {
+      "name": "mission modules work with pointer and keyboard",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 3705,
+      "annotations": []
+    },
+    {
+      "name": "research trade updates the selected study point",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1071,
+      "annotations": []
+    },
+    {
+      "name": "published resources download successfully",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 770,
+      "annotations": []
+    },
+    {
+      "name": "mobile navigation traps focus, closes on Escape and follows a route",
+      "project": "desktop",
+      "status": "skipped",
+      "durationMs": 225,
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Mobile navigation is only displayed at smaller viewports.",
+          "location": {
+            "file": "/home/sudheesh/Projects/Celestium/tests/website.spec.ts",
+            "line": 97,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "name": "small viewports preserve the page boundaries",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 10141,
+      "annotations": []
+    },
+    {
+      "name": "medical hero links position the chapter beneath both navigation bars",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1884,
+      "annotations": []
+    },
+    {
+      "name": "missing routes offer a clear path back",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1401,
+      "annotations": []
+    },
+    {
+      "name": "aircraft section navigation follows the reader",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1067,
+      "annotations": []
+    },
+    {
+      "name": "the duct drawing retains readable detail within its own scroll area",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 882,
+      "annotations": []
+    },
+    {
+      "name": "navigation and the aircraft introduction remain usable without JavaScript",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1052,
+      "annotations": []
+    },
+    {
+      "name": "the skip link transfers keyboard focus to the content",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 1185,
+      "annotations": []
+    },
+    {
+      "name": "Celestium keeps its aircraft concept and technology references clear",
+      "project": "desktop",
+      "status": "passed",
+      "durationMs": 2425,
+      "annotations": []
+    },
+    {
+      "name": "/ renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2484,
+      "annotations": []
+    },
+    {
+      "name": "/program renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2312,
+      "annotations": []
+    },
+    {
+      "name": "/aircraft renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2275,
+      "annotations": []
+    },
+    {
+      "name": "/technology renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2130,
+      "annotations": []
+    },
+    {
+      "name": "/mission renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2097,
+      "annotations": []
+    },
+    {
+      "name": "/mission/cabin renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2068,
+      "annotations": []
+    },
+    {
+      "name": "/mission/operations renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2048,
+      "annotations": []
+    },
+    {
+      "name": "/research renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2257,
+      "annotations": []
+    },
+    {
+      "name": "/products renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2062,
+      "annotations": []
+    },
+    {
+      "name": "/products/tiltrotor renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2007,
+      "annotations": []
+    },
+    {
+      "name": "/innovation/hsvtol renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1953,
+      "annotations": []
+    },
+    {
+      "name": "/missions renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1916,
+      "annotations": []
+    },
+    {
+      "name": "/contact renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1302,
+      "annotations": []
+    },
+    {
+      "name": "/journal renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1558,
+      "annotations": []
+    },
+    {
+      "name": "/company renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2177,
+      "annotations": []
+    },
+    {
+      "name": "/support renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2161,
+      "annotations": []
+    },
+    {
+      "name": "/media-credits renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1617,
+      "annotations": []
+    },
+    {
+      "name": "/videos renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2218,
+      "annotations": []
+    },
+    {
+      "name": "/innovation/hydrogen-electric renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1958,
+      "annotations": []
+    },
+    {
+      "name": "/innovation/digital-engineering renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1723,
+      "annotations": []
+    },
+    {
+      "name": "/support/training/pilot renders a readable, accessible page",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1919,
+      "annotations": []
+    },
+    {
+      "name": "mission modules work with pointer and keyboard",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 3443,
+      "annotations": []
+    },
+    {
+      "name": "research trade updates the selected study point",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1083,
+      "annotations": []
+    },
+    {
+      "name": "published resources download successfully",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1029,
+      "annotations": []
+    },
+    {
+      "name": "mobile navigation traps focus, closes on Escape and follows a route",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 2112,
+      "annotations": []
+    },
+    {
+      "name": "small viewports preserve the page boundaries",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 13876,
+      "annotations": []
+    },
+    {
+      "name": "medical hero links position the chapter beneath both navigation bars",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1545,
+      "annotations": []
+    },
+    {
+      "name": "missing routes offer a clear path back",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1178,
+      "annotations": []
+    },
+    {
+      "name": "aircraft section navigation follows the reader",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 936,
+      "annotations": []
+    },
+    {
+      "name": "the duct drawing retains readable detail within its own scroll area",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1059,
+      "annotations": []
+    },
+    {
+      "name": "navigation and the aircraft introduction remain usable without JavaScript",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 944,
+      "annotations": []
+    },
+    {
+      "name": "the skip link transfers keyboard focus to the content",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1085,
+      "annotations": []
+    },
+    {
+      "name": "Celestium keeps its aircraft concept and technology references clear",
+      "project": "mobile",
+      "status": "passed",
+      "durationMs": 1870,
+      "annotations": []
+    }
+  ],
+  "accessibilityScope": "21 representative pages per desktop/mobile viewport, plus expanded navigation, search, image inspection and energy architecture; WCAG A/AA and WCAG 2.1 AA tags.",
+  "responsiveScope": "All 71 primary headlines at 320px on both projects; representative page boundaries at 320, 768 and 1024px; original compact-layout regressions.",
+  "boundaries": [
+    "No public deployment performed.",
+    "The enquiry form prepares a local Markdown brief; it has no delivery endpoint.",
+    "Bell images and animations remain credited source media; no reuse licence was established.",
+    "Aircraft performance remains concept research; analytic airflow is not validated CFD."
+  ],
+  "screenshots": [
+    {
+      "file": "docs/previews/celestium-catalogue-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 112673
+    },
+    {
+      "file": "docs/previews/celestium-catalogue-studies-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 176651
+    },
+    {
+      "file": "docs/previews/celestium-energy-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 99724
+    },
+    {
+      "file": "docs/previews/celestium-energy-system-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 101918
+    },
+    {
+      "file": "docs/previews/celestium-home-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 153687
+    },
+    {
+      "file": "docs/previews/celestium-home-mobile.jpg",
+      "width": 390,
+      "height": 844,
+      "bytes": 44514
+    },
+    {
+      "file": "docs/previews/celestium-hsvtol-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 122633
+    },
+    {
+      "file": "docs/previews/celestium-hsvtol-mobile.jpg",
+      "width": 390,
+      "height": 844,
+      "bytes": 41334
+    },
+    {
+      "file": "docs/previews/celestium-hsvtol-modes-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 105294
+    },
+    {
+      "file": "docs/previews/celestium-medical-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 165002
+    },
+    {
+      "file": "docs/previews/celestium-tiltrotor-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 141512
+    },
+    {
+      "file": "docs/previews/celestium-tiltrotor-modes-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 104778
+    }
+  ],
+  "flowRegressionCases": 11,
+  "workWindow": {
+    "startedAtUTC": "2026-10-08T02:40:32+00:00",
+    "finishedAtUTC": "2026-10-08T04:41:19.414665+00:00",
+    "elapsedWallSeconds": 7247,
+    "requestedDurationSeconds": 7200
+  }
+}

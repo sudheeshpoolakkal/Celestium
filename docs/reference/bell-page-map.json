@@ -1,0 +1,2368 @@
+[
+  {
+    "reference": "https://www.bellflight.com",
+    "referenceTitle": "Transforming Flight - Bell Textron, Inc.",
+    "celestium": "/",
+    "adaptation": "Homepage flight-story structure",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-505",
+    "referenceTitle": "Bell 505 Jet Ranger X | Utility & Training Helicopter",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/veterans",
+    "referenceTitle": "Veteran & Military Programs at Bell",
+    "celestium": "/careers",
+    "adaptation": "Research contribution areas; no invented paid vacancies or employment benefits",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/operations",
+    "referenceTitle": "Operations Careers at Bell Textron",
+    "celestium": "/careers/operations",
+    "adaptation": "Mission and documentation contribution areas",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/internships",
+    "referenceTitle": "Internships at Bell | Early Career Programs",
+    "celestium": "/careers/students",
+    "adaptation": "Student research enquiry; no internship offer claim",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/engineering",
+    "referenceTitle": "Engineering Careers at Bell Textron",
+    "celestium": "/careers/engineering",
+    "adaptation": "Engineering research areas",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support/directory",
+    "referenceTitle": "Contact Support",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/ca-transparency-in-suppliers-act",
+    "referenceTitle": "California Transparency in Suppliers Act",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal",
+    "referenceTitle": "Bell Legal Information",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/privacy-policy-customers-and-potential-customers",
+    "referenceTitle": "Privacy Policy | Bell Suppliers and Potential Suppliers",
+    "celestium": "/legal/privacy",
+    "adaptation": "Actual local-preview data handling",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/california-notice-for-job-applicants",
+    "referenceTitle": "California Notice for Job Applicants",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership",
+    "referenceTitle": "Senior Leadership at Bell Textron Inc",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/flight-club-terms-and-conditions",
+    "referenceTitle": "Bell Flight Club Referral Terms & Conditions",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/copyright-notice",
+    "referenceTitle": "Bell Website Copyright & IP Notice",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/legal-entities",
+    "referenceTitle": "Bell Corporate Legal Entity Listings",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/cookie-policy",
+    "referenceTitle": "Bell Cookie Policy & Preferences",
+    "celestium": "/legal/privacy",
+    "adaptation": "Actual local-preview data handling",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/privacy-policy",
+    "referenceTitle": "Bell Privacy Policy | Data Protection",
+    "celestium": "/legal/privacy",
+    "adaptation": "Actual local-preview data handling",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/privacy-policy-e-commerce",
+    "referenceTitle": "Bell E-Commerce Privacy Policy",
+    "celestium": "/legal/privacy",
+    "adaptation": "Actual local-preview data handling",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/sms-text-communication-terms",
+    "referenceTitle": "SMS Text Communications Terms & Conditions",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/terms-of-use",
+    "referenceTitle": "Bell Website Terms of Use Policy",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/business",
+    "referenceTitle": "Business & Finance Careers at Bell",
+    "celestium": "/careers/operations",
+    "adaptation": "Mission and documentation contribution areas",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/certificates",
+    "referenceTitle": "Bell Quality & Regulatory Certificates",
+    "celestium": "/research",
+    "adaptation": "Research evidence context; no certification claim",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-407",
+    "referenceTitle": "Bell 407 | Public Safety & Utility Helicopter",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/gcs-thank-you",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/sales-thank-you",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/thank-you-business-case-study",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/thank-you-flight-club",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/thank-you-mil-training",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/thank-you-police-aviation-unit",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/insider-thank-you-confirmation",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/thank-you",
+    "referenceTitle": "Thank you!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/map-test",
+    "referenceTitle": "Map Test",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/asia-academy",
+    "referenceTitle": "Bell Training Academy Asia | Singapore",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/europe-academy",
+    "referenceTitle": "Bell Training Academy Europe | Valencia",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/payment-cancellation-policy",
+    "referenceTitle": "Bell Training Academy Payment & Cancellation Policy",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/payment-cancellation-policy/sales-of-training-terms-and-conditions",
+    "referenceTitle": "Sales of Training Terms and Conditions",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/pilot-training",
+    "referenceTitle": "Helicopter Pilot Training for Bell Aircraft",
+    "celestium": "/support/training/pilot",
+    "adaptation": "Pilot knowledge requirements; no approved course claim",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/specialty-training",
+    "referenceTitle": "Specialty Helicopter Training | Bell Academy",
+    "celestium": "/support/training/mission",
+    "adaptation": "Mission-team knowledge requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/technical-training",
+    "referenceTitle": "Helicopter Technical & Maintenance Training | Bell",
+    "celestium": "/support/training/technical",
+    "adaptation": "Technical knowledge requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/united-states-academy",
+    "referenceTitle": "Bell Training Academy United States",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training",
+    "referenceTitle": "Helicopter Flight, Maintenance & Specialty Training | Bell",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors",
+    "referenceTitle": "Visitor Information for Bell Facilities",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/avlc",
+    "referenceTitle": "Bell Advanced Vertical Lift Center (AVLC) Visitors",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/acc",
+    "referenceTitle": "Bell Advanced Composite Center Visitor Info | Hurst, TX",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/innovation",
+    "referenceTitle": "Bell Innovation Visitor Information",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/mtc",
+    "referenceTitle": "Bell Manufacturing Technology Center (MTC) Visitors",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/cbc",
+    "referenceTitle": "Bell Commercial Business Center (CBC) Visitors",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/dsc",
+    "referenceTitle": "Drive Systems Center (DSC) Visitor Information",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/frc",
+    "referenceTitle": "Bell Flight Research Center (FRC) Visitors",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/visitors/hq",
+    "referenceTitle": "Bell Headquarters Visitor Information",
+    "celestium": "/company/approach",
+    "adaptation": "Research access online; no invented physical visitor facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us",
+    "referenceTitle": "Contact Us | Bell Helicopters",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/bynder-test",
+    "referenceTitle": "Bynder Test",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/blog",
+    "referenceTitle": "Bell Blog | Aviation News & Insights",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium research journal",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company",
+    "referenceTitle": "About Bell | Company Overview & History",
+    "celestium": "/company",
+    "adaptation": "Celestium story and MALUS research context",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance",
+    "referenceTitle": "Helicopter Maintenance & Service Centers for Bell Aircraft",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/asia-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in Singapore",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/blade-repairs",
+    "referenceTitle": "Bell Helicopter Rotor Blade Repair & Service",
+    "celestium": "/support/maintenance/blades",
+    "adaptation": "Rotor and blade research requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/benefits",
+    "referenceTitle": "Benefits for Employees of Bell",
+    "celestium": "/careers",
+    "adaptation": "Research contribution areas; no invented paid vacancies or employment benefits",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/tennessee-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in Tennessee",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/spares",
+    "referenceTitle": "Helicopter Spare Parts & Accessories | Bell",
+    "celestium": "/support/maintenance/spares",
+    "adaptation": "Replaceable-system philosophy",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/australia-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in Australia",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/podcast",
+    "referenceTitle": "Bell TechTalk and Bell Alerts Series",
+    "celestium": "/journal/maintainability-from-day-one",
+    "adaptation": "Original maintainability research note",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/miami-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in Miami, Florida",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/europe-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in Eastern Europe",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/composite-panels",
+    "referenceTitle": "Helicopter Composite Panel Repair | Bell Service",
+    "celestium": "/support/maintenance/composites",
+    "adaptation": "Structures and inspection research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/china-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in China",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial",
+    "referenceTitle": "Commercial Helicopter Support & Maintenance | Bell",
+    "celestium": "/support",
+    "adaptation": "Lifecycle research overview",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/global",
+    "referenceTitle": "Bell Textron Inc. Global Home Page",
+    "celestium": "/company/partners",
+    "adaptation": "Research collaboration context; no invented international operations",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support",
+    "referenceTitle": "Contact Bell Commercial Support",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support/aftermarket-sales-reps",
+    "referenceTitle": "Aftermarket Sales Representatives | Bell Commercial",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support/aircraft-sales-reps",
+    "referenceTitle": "Commercial Bell Aircraft Sales Representatives",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support/customer-service-facilities",
+    "referenceTitle": "Customer Service Facilities for Commercial Bell Aircraft",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support/customer-support-engineers",
+    "referenceTitle": "Customer Support Engineers for Commercial Bell Aircraft",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/not-found",
+    "referenceTitle": "404",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/legal/patents",
+    "referenceTitle": "Bell Virtual Patent Marking Notice",
+    "celestium": "/legal",
+    "adaptation": "Research context and site information; Bell legal entities and contracts not adopted",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/maintenance/canada-service-center",
+    "referenceTitle": "Bell Helicopter Services & Support in Mirabel, Canada",
+    "celestium": "/support/maintenance",
+    "adaptation": "Maintainability research; no invented service centres",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/contact-support/independent-representatives",
+    "referenceTitle": "Independent Sales Representatives | Bell Commercial",
+    "celestium": "/contact",
+    "adaptation": "Enquiry preparation without an invented support directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/insider-kiosk-signup",
+    "referenceTitle": "Interested in Bell Flight Insights?",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/contact-us/insider-thank-you",
+    "referenceTitle": "Thank you for subscribing!",
+    "celestium": "/contact",
+    "adaptation": "Local enquiry builder; Bell submission confirmations not duplicated",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-ah-1z/korea",
+    "referenceTitle": "Bell AH-1Z: Republic of Korea",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-ah-1z",
+    "referenceTitle": "Bell AH-1Z Viper | Attack & Reconnaissance Helicopter",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-525/energy",
+    "referenceTitle": "Bell 525 Relentless | Offshore Energy Helicopter",
+    "celestium": "/missions/energy",
+    "adaptation": "Offshore mission requirements perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-525",
+    "referenceTitle": "Bell 525 | Applied Technology for Energy Missions",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-505/utility",
+    "referenceTitle": "Bell 505 Utility Helicopter Operations",
+    "celestium": "/products/utility",
+    "adaptation": "Utility platform and mission interfaces",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-505/corporate",
+    "referenceTitle": "Bell 505 Corporate Helicopter Missions",
+    "celestium": "/missions/business",
+    "adaptation": "Regional mobility and cabin requirements perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-505/adventure",
+    "referenceTitle": "Bell 505 for Adventure Operations",
+    "celestium": "/missions/adventure",
+    "adaptation": "Remote field-research perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-429/designer-series",
+    "referenceTitle": "Bell 429 Designer Series Luxury Interior",
+    "celestium": "/missions/business",
+    "adaptation": "Regional mobility and cabin requirements perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-429",
+    "referenceTitle": "Bell 429 | Multi-Mission Solution Helicopter",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-412",
+    "referenceTitle": "Bell 412 | Public Safety & Energy Helicopter",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-407/ifr",
+    "referenceTitle": "Instrument Flight Rules (IFR) Kit for Bell 407",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-407/chile",
+    "referenceTitle": "The Bell 407GXi: The Right Choice for the Chilean Air Force",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-boeing-v-22",
+    "referenceTitle": "Bell Boeing V-22 Osprey | Air Assault Tiltrotor",
+    "celestium": "/products/tiltrotor",
+    "adaptation": "Tiltrotor technology reference and separate Celestium concept context",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-mv-75",
+    "referenceTitle": "Bell MV-75 | Future Long Range Assault Aircraft",
+    "celestium": "/products/tiltrotor",
+    "adaptation": "Tiltrotor technology reference and separate Celestium concept context",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-boeing-v-22/nacelle-improvement",
+    "referenceTitle": "Bell Boeing V-22 Nacelle Improvement Program",
+    "celestium": "/innovation/digital-engineering",
+    "adaptation": "Connected systems, interfaces and lifecycle research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-mv-75/manufacturing",
+    "referenceTitle": "Future Vertical Lift | Manufacturing Technology | Bell",
+    "celestium": "/innovation/digital-engineering",
+    "adaptation": "Connected systems, interfaces and lifecycle research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-mv-75/mosa",
+    "referenceTitle": "Future Vertical Lift | Modular Open System Approach | Bell",
+    "celestium": "/innovation/digital-engineering",
+    "adaptation": "Connected systems, interfaces and lifecycle research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-mv-75/sustainment",
+    "referenceTitle": "Future Vertical Lift | Sustainment | Bell",
+    "celestium": "/innovation/digital-engineering",
+    "adaptation": "Connected systems, interfaces and lifecycle research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-mv-75/team",
+    "referenceTitle": "Team FLRAA | Bell MV-75 Industrial Partners",
+    "celestium": "/innovation/digital-engineering",
+    "adaptation": "Connected systems, interfaces and lifecycle research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-uh-1y",
+    "referenceTitle": "Bell UH-1Y | The Ultimate Utility Helicopter",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-v-247",
+    "referenceTitle": "Bell V-247 | Long-Range Unmanned Strike Aircraft",
+    "celestium": "/products/uncrewed",
+    "adaptation": "Uncrewed aircraft architecture research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/h1",
+    "referenceTitle": "Bell H1 Aircraft: AH-1Z Attack and UH-1Y Utility Helicopter",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/h1/uk",
+    "referenceTitle": "Bell H1 Aircraft | AH-1Z & UH-1Y for UK & Allied Forces",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products",
+    "referenceTitle": "Bell Helicopter & Tiltrotor Products",
+    "celestium": "/products",
+    "adaptation": "Filterable study catalogue and architecture comparison",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/team-viper-venom",
+    "referenceTitle": "Team Viper / Venom | Bell Military Solutions",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/literature",
+    "referenceTitle": "Bell Aircraft Literature",
+    "celestium": "/products/literature",
+    "adaptation": "Actual project research downloads",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/commercial",
+    "referenceTitle": "Bell Commercial Aircraft | Helicopters for Every Mission",
+    "celestium": "/products/commercial",
+    "adaptation": "Civil aircraft applications; Bell product names remain Bell references",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/military",
+    "referenceTitle": "Bell Military Helicopters & Tiltrotor Aircraft",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/flight-club",
+    "referenceTitle": "Bell Flight Club Referral Program | Bell Flight",
+    "celestium": "/journal",
+    "adaptation": "Research notes in place of an invented membership programme",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/bell-mv-75/revolutionary-maneuver",
+    "referenceTitle": "FLRAA: Revolutionary Maneuver Video Series",
+    "celestium": "/innovation/digital-engineering",
+    "adaptation": "Connected systems, interfaces and lifecycle research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/component-test",
+    "referenceTitle": "Component Test",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/global/canada",
+    "referenceTitle": "Bell Helicopters in Canada | Global Operations",
+    "celestium": "/company/partners",
+    "adaptation": "Research collaboration context; no invented international operations",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions",
+    "referenceTitle": "Bell Mission Solutions for Aviation & Industry",
+    "celestium": "/missions",
+    "adaptation": "Nine mission perspectives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/adventure-helicopters",
+    "referenceTitle": "Bell Helicopters for Private, Personal & Adventure",
+    "celestium": "/missions/adventure",
+    "adaptation": "Remote exploration requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/business-helicopters",
+    "referenceTitle": "Bell Helicopters for Business and Corporate Transportation",
+    "celestium": "/missions/business",
+    "adaptation": "Regional mobility research perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/business-helicopters/flight-departments",
+    "referenceTitle": "Bell 429 Owner Testimonial with Aaron Ziegler",
+    "celestium": "/missions/business",
+    "adaptation": "Regional mobility research perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/energy-helicopters",
+    "referenceTitle": "Bell Helicopters for Energy, Oil and Offshore Operations",
+    "celestium": "/missions/energy",
+    "adaptation": "Offshore and energy mission requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/hems-helicopters",
+    "referenceTitle": "Bell Helicopters for Emergency Medical Operations (HEMS)",
+    "celestium": "/mission",
+    "adaptation": "Dedicated Celestium medical design case",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/military-trainer-helicopters",
+    "referenceTitle": "Bell Helicopters for Military Pilot Training",
+    "celestium": "/missions/training",
+    "adaptation": "Training and simulation research requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/public-safety-helicopters",
+    "referenceTitle": "Bell Helicopters for Public Safety & Law Enforcement",
+    "celestium": "/missions/public-safety",
+    "adaptation": "Public-safety mission requirements",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/public-safety-helicopters/starting-a-police-aviation-unit",
+    "referenceTitle": "Starting a Police Aviation Unit White-paper",
+    "celestium": "/missions/public-safety/starting-up",
+    "adaptation": "Aviation-unit research planning brief",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/special-missions",
+    "referenceTitle": "Bell's Militarized Commercial Product Line",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/special-missions/bell-407m",
+    "referenceTitle": "Bell 407M | Military Multi-Role Helicopter",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/special-missions/bell-412m",
+    "referenceTitle": "Bell 412M | Time-Tested, Rugged & Reliable Helicopter",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/utility-helicopters",
+    "referenceTitle": "Bell Commercial Helicopter Products for Utility Operations",
+    "celestium": "/missions/utility",
+    "adaptation": "Cargo and utility mission interfaces",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/events",
+    "referenceTitle": "Events | Bell Flight",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/insights",
+    "referenceTitle": "Sign up for Bell Insights Newsletter",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium research journal",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers",
+    "referenceTitle": "Careers at Bell | Join the Future of Flight",
+    "celestium": "/careers",
+    "adaptation": "Research contribution areas; no invented paid vacancies or employment benefits",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/careers/wichita",
+    "referenceTitle": "Careers at Bell's Wichita FLRAA Fuselage Assembly Facility",
+    "celestium": "/careers",
+    "adaptation": "Research contribution areas; no invented paid vacancies or employment benefits",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/corporate-responsibility",
+    "referenceTitle": "Corporate Responsibility at Bell",
+    "celestium": "/company/responsibility",
+    "adaptation": "Environmental and community research context",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/innovation",
+    "referenceTitle": "Bell Innovation | Future of Vertical Lift",
+    "celestium": "/innovation",
+    "adaptation": "Innovation overview and connected research pages",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/suppliers",
+    "referenceTitle": "Bell Suppliers | Sell2Bell Supplier Portal",
+    "celestium": "/suppliers",
+    "adaptation": "Supplier research interfaces",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/suppliers/cybersecurity",
+    "referenceTitle": "Bell Supplier Cybersecurity Requirements",
+    "celestium": "/suppliers/cybersecurity",
+    "adaptation": "Technical data stewardship",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/suppliers/quality",
+    "referenceTitle": "Bell Supplier Quality Assurance Program",
+    "celestium": "/suppliers/quality",
+    "adaptation": "Component evidence and traceability",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/suppliers/terms-and-conditions",
+    "referenceTitle": "Bell Supplier Terms and Conditions",
+    "celestium": "/suppliers/terms",
+    "adaptation": "Collaboration principles, without adopting Bell contracts",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/flight-safety",
+    "referenceTitle": "Bell Flight Safety Solutions & Standards",
+    "celestium": "/support/flight-safety",
+    "adaptation": "Hazards and aircraft-level validation research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/mybell",
+    "referenceTitle": "MyBell Customer Portal | Bell Support",
+    "celestium": "/support/resources",
+    "adaptation": "Open research resources in place of an unsupported customer account portal",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/training/request-access",
+    "referenceTitle": "Request Access",
+    "celestium": "/support/training",
+    "adaptation": "Training research overview; no invented academy facilities",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/hems-helicopters/kits",
+    "referenceTitle": "Helicopter Emergency Medical Services (HEMS) Kits",
+    "celestium": "/mission/cabin",
+    "adaptation": "Dedicated Celestium medical design case",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/innovation/hsvtol",
+    "referenceTitle": "High-Speed Vertical Takeoff and Landing (HSVTOL) Aircraft",
+    "celestium": "/innovation/hsvtol",
+    "adaptation": "Dedicated HSVTOL explainer, flight-mode schematic and two aircraft-only clips",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/public-safety-helicopters/starting-up",
+    "referenceTitle": "Starting Up: A Peoria Public Safety Helicopter Video Series",
+    "celestium": "/missions/public-safety/starting-up",
+    "adaptation": "Aviation-unit research planning brief",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/public-safety-helicopters/the-patrol",
+    "referenceTitle": "The Patrol: A Public Safety Helicopter Video Series",
+    "celestium": "/missions/public-safety/disaster-response",
+    "adaptation": "Observation and disaster-response research perspective",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/events/event/2026/february/singapore-airshow",
+    "referenceTitle": "Singapore Airshow",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/events/event/2026/march/verticon",
+    "referenceTitle": "Verticon",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/hero-slider",
+    "referenceTitle": "Hero Slider",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/sales-contact-form-modal",
+    "referenceTitle": "Sales Contact Form Modal",
+    "celestium": "/contact",
+    "adaptation": "Local research enquiry preparation",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/h1/spine",
+    "referenceTitle": "Structural and Power Improvements for NextGen Effects (SPINE) for the Bell AH-1Z and UH-1Y",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research without adopting Bell military product claims",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/missions/usmc",
+    "referenceTitle": "Bell Aircraft Programs for U.S. Marine Corps | USMC",
+    "celestium": "/missions/special-missions",
+    "adaptation": "Specialised mission-interface research",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/sprite-sheet-test-page",
+    "referenceTitle": "Sprite Sheet Test page",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/protect-and-upgrade/customer-advantage-plans",
+    "referenceTitle": "Customer Advantage Plans",
+    "celestium": "/support/upgrades",
+    "adaptation": "Interface and configuration-control philosophy",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/support/commercial/protect-and-upgrade",
+    "referenceTitle": "Protect Upgrades",
+    "celestium": "/support/upgrades",
+    "adaptation": "Interface and configuration-control philosophy",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/products/tiltrotor",
+    "referenceTitle": "Bell Tiltrotor Technology",
+    "celestium": "/products/tiltrotor",
+    "adaptation": "Tiltrotor technology reference and separate Celestium concept context",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos",
+    "referenceTitle": "Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterssocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarterscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/module-sources/bell-407",
+    "referenceTitle": "BellFlight.com",
+    "celestium": "/site-directory",
+    "adaptation": "Internal component, test or error route reviewed; represented by the public route directory",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/danny-maldonado",
+    "referenceTitle": "R. Danny Maldonado | President & CEO, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/jason-henderson",
+    "referenceTitle": "Jason Henderson | SVP Integrated Operations, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/jason-hurst",
+    "referenceTitle": "Jason Hurst | EVP Engineering, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/jeffrey-schloesser",
+    "referenceTitle": "Jeffrey Schloesser | SVP Strategic Pursuits, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/jennifer-lambert",
+    "referenceTitle": "",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/jim-tarallo",
+    "referenceTitle": "Jim Tarallo | SVP & Chief Financial Officer, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/john-dandurand",
+    "referenceTitle": "John Dandurand | Bell Leadership",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/kurt-fuller",
+    "referenceTitle": "Kurt Fuller | SVP Military Fielded Programs, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/marc-bigaouette",
+    "referenceTitle": "",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/michael-deslatte",
+    "referenceTitle": "Michael Deslatte | SVP Bell 525 Program",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/michael-nault",
+    "referenceTitle": "Michael Nault | Bell Leadership",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/nathan-harwood",
+    "referenceTitle": "Nathan Harwood | EVP & Chief Information Officer, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/rob-scholl",
+    "referenceTitle": "",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/company/leadership/ryan-ehinger",
+    "referenceTitle": "Ryan Ehinger | MV-75 Program Director, Bell",
+    "celestium": "/company/approach",
+    "adaptation": "Research approach in place of invented executives",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/air-zermatt-the-bell-429-high-altitude-rescue-experts",
+    "referenceTitle": "Why the Bell 429 Is the Ultimate Alpine Rescue Helicopter | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/capt-rodrigo-duarte",
+    "referenceTitle": "Bell 505 Testimonial: Capt. Rodrigo Duarte | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/david-sprague",
+    "referenceTitle": "Bell 505 Testimonial: David Sprague | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/eli-company",
+    "referenceTitle": "Bell 505 Testimonial: Elicompany | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/george-tecklenborg",
+    "referenceTitle": "Bell 505 Testimonial: George Tecklenborg | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/h-1-spine-upgrade-that-powers-the-future-fight",
+    "referenceTitle": "Modernizing the USMC H-1 Fleet for Future Battlespaces | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/how-police-helicopters-revolutionize-public-safety",
+    "referenceTitle": "Why Police Helicopters Are Worth the Investment | Bell Blog | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/how-the-bell-505-is-transforming-military-helicopter-training",
+    "referenceTitle": "Bell 505 Military Pilot Training | Bell Blog | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/how-the-jamaica-defence-force-shapes-the-next-generation-of-military-aviators",
+    "referenceTitle": "Bell 505 Military Trainer: Inside the JDF Pilot Journey | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/inside-bell-global-customer-solutions-mission-support",
+    "referenceTitle": "| Bell Blog",
+    "celestium": "/journal/maintainability-from-day-one",
+    "adaptation": "Original lifecycle research note",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/isobel-stone",
+    "referenceTitle": "Bell 505 Testimonial: Isobel Stone | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/jimmy-desisto-the-bell-407gxi-ultimate-freedom-in-the-skies",
+    "referenceTitle": "Bell 407GXi Review: Why Pilot Jimmy DeSisto Chooses Bell | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/life-flight-network",
+    "referenceTitle": "| Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/mountain-flyers",
+    "referenceTitle": "Bell 505 Testimonial: Mountain Flyers | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/neil-mclean",
+    "referenceTitle": "Bell 505 Testimonial: Neil Mclean | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/pt-whitesky-aviation",
+    "referenceTitle": "Bell 505 Testimonial: PT Whitesky Aviation | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/rocky-mountain-rotors",
+    "referenceTitle": "Bell 505 Testimonial: Rocky Mountain Rotors | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/southern-utah",
+    "referenceTitle": "Bell 505 Testimonial: Southern Utah | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/the-call",
+    "referenceTitle": "Life Flight Network: The Call | Bell Blog | Bell Blog",
+    "celestium": "/journal/an-aircraft-around-care",
+    "adaptation": "Original medical-mission research note",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/the-subaru-bell-412epx-a-legacy-of-reliability-and-performance",
+    "referenceTitle": "| Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/the-team-supporting-your-missions",
+    "referenceTitle": "Bell Helicopter Customer Support & Services | Global Solutions | Bell Blog",
+    "celestium": "/journal/maintainability-from-day-one",
+    "adaptation": "Original lifecycle research note",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/why-mission-driven-configurations-matter-for-public-safety-helicopters",
+    "referenceTitle": "Mission-Driven Public Safety Helicopter Configs | Bell Blog | Bell Blog",
+    "celestium": "/journal",
+    "adaptation": "Original Celestium journal; Bell news events are not adopted as Celestium history",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/post/why-the-v-22s-nacelles-are-getting-a-major-improvement--and-why-it-matters",
+    "referenceTitle": "V-22 Osprey Nacelle Improvements: Enhancing Reliability | Bell Flight | Bell Blog",
+    "celestium": "/journal/the-tiltrotor-perspective",
+    "adaptation": "Original tiltrotor architecture research note",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/2026-aviation-africa-summit-exhibition",
+    "referenceTitle": "2026 Aviation Africa Summit & Exhibition | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/amtc",
+    "referenceTitle": "AMTC 2026 | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/ausa-2026",
+    "referenceTitle": "AUSA 2026 | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/european-rotors",
+    "referenceTitle": "European Rotors | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/helicopter-association-of-canada-hac",
+    "referenceTitle": "Helicopter Association of Canada (HAC) | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/iacp-2026",
+    "referenceTitle": "IACP 2026 | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/marrakech-air-show-2026",
+    "referenceTitle": "Marrakech Air Show 2026  | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/salon-prive-2026",
+    "referenceTitle": "Salon Priv\u00e9 2026 | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/events/verticon-2026",
+    "referenceTitle": "Verticon 2026 | Bell Events",
+    "celestium": "/company/events",
+    "adaptation": "Research conversation page; no invented event attendance",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/505-walkaround",
+    "referenceTitle": "505 Walkaround - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/air-st-lukes-mission-values-and-dedication",
+    "referenceTitle": "Air St. Luke's Mission, Values and Dedication - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/air-st-lukes-on-how-the-429-drives-mission-success",
+    "referenceTitle": "Air St. Lukes on How the 429 Drives Mission Success - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/air-transport-europe-and-the-bell-429",
+    "referenceTitle": "Air Transport Europe and the Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/air-zermatt-bell-customized-solutions",
+    "referenceTitle": "Air Zermatt: Bell Customized Solutions - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/air-zermatt-bell-technical-support",
+    "referenceTitle": "Air Zermatt: Bell Technical Support - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/air-zermatt-on-the-bell-429",
+    "referenceTitle": "Air Zermatt on the Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/andrea-puccinelli-on-the-bell-429",
+    "referenceTitle": "Andrea Puccinelli on the Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-407-switzerland-experience",
+    "referenceTitle": "Bell 407: Switzerland Experience - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-407-testimonial-with-stephan-kruger",
+    "referenceTitle": "Bell 407 Testimonial with Stephan Kruger - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-429-hems-interior-with-air-st-lukes",
+    "referenceTitle": "Bell 429: HEMS interior with Air St Luke\u2019s - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-429-new-zealand-police",
+    "referenceTitle": "Bell 429: New Zealand Police - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-adventure-bundle",
+    "referenceTitle": "Bell 505 Adventure Bundle - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-cargo-hook",
+    "referenceTitle": "Bell 505 - Cargo Hook - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-flight-in-nepal",
+    "referenceTitle": "Bell 505 Flight in Nepal - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-montenegro-testimonial",
+    "referenceTitle": "Bell 505 Montenegro Testimonial - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-northern-vietnam-helicopters",
+    "referenceTitle": "Bell 505 Northern Vietnam Helicopters - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-owner-1-hour-in-the-helicopter-is-4-hours-in-the-car",
+    "referenceTitle": "Bell 505 Owner: 1 hour in the helicopter is 4 hours in the car - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-testimonial-butte-county-sheriffs-department",
+    "referenceTitle": "Bell 505 Testimonial: Butte County Sheriff's Department - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-testimonial-cyrus-sigari",
+    "referenceTitle": "Bell 505 Testimonial: Cyrus Sigari - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-testimonial-mike-barnes-ceo-mcc-aviation",
+    "referenceTitle": "Bell 505 Testimonial \u2013 Mike Barnes, CEO MCC Aviation - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-testimonial-montenegro",
+    "referenceTitle": "Bell 505 Testimonial: Montenegro - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-testimonial-rocky-mountain-rotors",
+    "referenceTitle": "Bell 505 Testimonial: Rocky Mountain Rotors - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-testimonial-rusty-robinson",
+    "referenceTitle": "Bell 505 Testimonial: Rusty Robinson - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-505-when-was-the-last-time-you-did-something-for-the-first-time",
+    "referenceTitle": "Bell 505 \u2013 When Was the Last Time You Did Something for the First Time? - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-525-efficiently-serving-energy-operators",
+    "referenceTitle": "Bell 525: Efficiently Serving Energy Operators - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-525-overview-video",
+    "referenceTitle": "Bell 525 Overview Video - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-asia-service-center",
+    "referenceTitle": "Bell Asia Service Center - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-australia-expands-hydraulic-capabilities",
+    "referenceTitle": "Bell Australia Expands Hydraulic Capabilities - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-australia-service-center-overview",
+    "referenceTitle": "Bell Australia Service Center Overview - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-boeing-v-22-multi-mission",
+    "referenceTitle": "Bell Boeing V-22 Multi-Mission - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-canada-service-center-overview",
+    "referenceTitle": "Bell Canada Service Center Overview - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-cap-and-safran-sbh-5star-partnership",
+    "referenceTitle": "Bell CAP and Safran SBH\u00ae5Star Partnership - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-miami-service-center",
+    "referenceTitle": "Bell Miami Service Center - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-prague-service-center",
+    "referenceTitle": "Bell Prague Service Center - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bell-repair-services",
+    "referenceTitle": "Bell Repair Services - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bells-legacy-in-public-safety",
+    "referenceTitle": "Bell's Legacy in Public Safety - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bob-dengler-bell-429-ambassador-chapter-one",
+    "referenceTitle": "Bob Dengler, Bell 429 Ambassador: Chapter One - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bob-dengler-bell-429-ambassador-chapter-three",
+    "referenceTitle": "Bob Dengler, Bell 429 Ambassador: Chapter Three - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bob-dengler-bell-429-ambassador-chapter-two",
+    "referenceTitle": "Bob Dengler, Bell 429 Ambassador: Chapter Two - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/bond-durham-on-407-hems-operations",
+    "referenceTitle": "Bond Durham on 407 HEMS Operations - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/careflite-bell-429-medical-interior-walkaround",
+    "referenceTitle": "CareFlite: Bell 429 Medical Interior Walkaround - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/careflite-plans-for-the-future-with-bell",
+    "referenceTitle": "CareFlite Plans for the Future with Bell - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/christian-palmaz-series-bell-429-technical-analysis",
+    "referenceTitle": "Bell 429 Technical Analysis - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/christian-palmaz-series-family-time",
+    "referenceTitle": "Family Time - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/christian-palmaz-series-the-bell-429-makes-a-difference-for-business",
+    "referenceTitle": "The Bell 429 Makes a Difference for Business - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/christian-palmaz-series-the-bell-family",
+    "referenceTitle": "The Bell Family - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/christian-palmaz-series-the-ultimate-time-machine",
+    "referenceTitle": "The Ultimate Time Machine - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/classic-air-medical",
+    "referenceTitle": "Classic Air Medical - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/classic-air-medical-history-and-legacy",
+    "referenceTitle": "Classic Air Medical: History and Legacy - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/classic-air-medical-maintainability-and-parts-availability",
+    "referenceTitle": "Classic Air Medical: Maintainability and Parts Availability - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/clayton-boyd-ribbonwood-estate-505-features-testimonial",
+    "referenceTitle": "Clayton Boyd / Ribbonwood Estate 505 Features Testimonial - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/clayton-boyd-ribbonwood-estate-bell-training-academy-testimonial",
+    "referenceTitle": "Clayton Boyd / Ribbonwood Estate Bell Training Academy Testimonial - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/clayton-boyd-ribbonwood-estate-lifestyle-testimonial",
+    "referenceTitle": "Clayton Boyd / Ribbonwood Estate Lifestyle Testimonial - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/denver-police-department-bell-407gxi",
+    "referenceTitle": "Denver Police Department: Bell 407GXi - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/fairfax-county-sheriffs-429s-true-multi-mission-capabilities",
+    "referenceTitle": "Fairfax County Sheriff's 429s: True Multi-mission Capabilities - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/falcon-one-zero-and-making-the-mission",
+    "referenceTitle": "Falcon One-Zero and Making the Mission - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/falcon-one-zero-reflection-and-gratitude",
+    "referenceTitle": "Falcon One-Zero Reflection and Gratitude - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/fort-worth-police-department-bell-505",
+    "referenceTitle": "Fort Worth Police Department - Bell 505 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/from-jet-to-helicopter-in-the-bell-429",
+    "referenceTitle": "From Jet to Helicopter in the Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/full-bag-of-gas-and-pax-confined-area-landing-no-problem",
+    "referenceTitle": "Full Bag of Gas and Pax. Confined Area Landing. No Problem. - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/future-long-range-assault-aircraft-flraa-industrial-partners-team-flraa",
+    "referenceTitle": "Future Long Range Assault Aircraft (FLRAA) Industrial Partners: Team FLRAA - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/getting-helicopter-snobby-with-brandy",
+    "referenceTitle": "Getting Helicopter Snobby with Brandy - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/hear-from-our-pses",
+    "referenceTitle": "Hear from our PSEs - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/heliservicio-and-the-bell-customer-advantage-plan",
+    "referenceTitle": "Heliservicio and the Bell Customer Advantage Plan - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/how-rocky-mountain-rotors-uses-the-505-for-multi-missions",
+    "referenceTitle": "How Rocky Mountain Rotors Uses the 505 for Multi-Missions - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/i-wouldnt-buy-any-other-helicopter-but-a-bell",
+    "referenceTitle": "Jimmy DeSisto on the Bell 407 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/know-your-machine-pilot-training-by-bell",
+    "referenceTitle": "\u201cKnow your machine\u201d: Pilot training by Bell - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/local-experts-global-commitment-customer-service-engineers",
+    "referenceTitle": "Customer Service Engineers: Local Experts. Global Commitment. - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/making-airborne-public-safety-easier",
+    "referenceTitle": "Making Airborne Public Safety Easier - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/multimission-with-the-delaware-state-police-aviation-unit-commander",
+    "referenceTitle": "Multimission with the Delaware State Police Aviation Unit Commander - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/mv-75-acceleration",
+    "referenceTitle": "MV-75: Acceleration - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/mv-75-designed-with-mosa-at-the-forefront",
+    "referenceTitle": "MV-75: Designed with MOSA at the Forefront - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/mv-75-multi-mission-capable",
+    "referenceTitle": "MV-75: Multi-mission Capable - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/mv-75-transformational",
+    "referenceTitle": "MV-75: Transformational - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/mv-75-transforming-army-aviation",
+    "referenceTitle": "MV-75: Transforming Army Aviation - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/operating-the-505-in-new-zealand",
+    "referenceTitle": "Operating the 505 in New Zealand - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/orange-county-sheriff-aviation-unit-bell-407",
+    "referenceTitle": "Orange County Sheriff Aviation Unit: Bell 407 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/palm-beach-county-sheriff-429-walkaround",
+    "referenceTitle": "Palm Beach County Sheriff: 429 Walkaround - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/palm-beach-county-sheriff-multi-mission-operations",
+    "referenceTitle": "Palm Beach County Sheriff: Multi-Mission Operations - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/peter-thoma-on-the-bell-429",
+    "referenceTitle": "Peter Thoma on the Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/piney-flats-service-center",
+    "referenceTitle": "Piney Flats Service Center - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/powercor-and-the-bell-407gxi",
+    "referenceTitle": "Powercor and the Bell 407GXi - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/predictable-handling-for-military-pilot-training",
+    "referenceTitle": "Predictable Handling for Military Pilot Training - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/qualitycopter",
+    "referenceTitle": "QualityCopter - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/revolutionary-maneuver-disrupting-the-battlefield-with-tiltrotor",
+    "referenceTitle": "Disrupting the Battlefield with Tiltrotor - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/revolutionary-maneuver-expanding-tactical-options",
+    "referenceTitle": "Expanding Tactical Options - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/revolutionary-maneuver-exploiting-temporary-domain-dominance",
+    "referenceTitle": "Exploiting Temporary Domain Dominance - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/revolutionary-maneuver-extending-operational-reach",
+    "referenceTitle": "Extending Operational Reach - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/revolutionary-maneuver-leveraging-relative-sanctuary",
+    "referenceTitle": "Leveraging Relative Sanctuary - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/revolutionary-maneuver-speed-of-execution",
+    "referenceTitle": "Speed of Execution - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/shorten-the-learning-curve-for-military-pilot-training",
+    "referenceTitle": "Shorten the Learning Curve for Military Pilot Training - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/starting-up-launch",
+    "referenceTitle": "Starting Up: Launch - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/starting-up-mission",
+    "referenceTitle": "Starting Up: Mission - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/starting-up-the-chief",
+    "referenceTitle": "Starting Up: The Chief - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/subaru-bell-412epx-helicopter-features-specifications-and-performance-walkaround",
+    "referenceTitle": "SUBARU Bell 412EPX: Helicopter Features, Specifications, and Performance Walkaround - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/supporting-peorias-new-public-safety-aviation-unit",
+    "referenceTitle": "Supporting Peoria's new Public Safety Aviation Unit - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/swedish-national-police-bell-429",
+    "referenceTitle": "Swedish National Police Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/swedish-national-police-history-and-operations",
+    "referenceTitle": "Swedish National Police: History and Operations - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/swedish-police-air-support-unit-bell-429-pilot",
+    "referenceTitle": "Swedish Police Air Support Unit Bell 429 Pilot - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/swedish-police-tfos-and-pilots-on-the-bell-429",
+    "referenceTitle": "Swedish Police: TFOs and Pilots on the Bell 429 - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/team-flraa-acceleration",
+    "referenceTitle": "Team FLRAA Acceleration - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/team-flraa-industrial-base-impact",
+    "referenceTitle": "Team FLRAA Industrial Base Impact - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/team-viper-venom",
+    "referenceTitle": "Team Viper / Venom - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/team-viper-venom-690633765",
+    "referenceTitle": "Team Viper / Venom - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/techtalk-bell-505-maintenance",
+    "referenceTitle": "TechTalk - Bell 505 Maintenance - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-505-is-so-easy-to-fly",
+    "referenceTitle": "The 505 is So Easy to Fly - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-aircraft-of-choice",
+    "referenceTitle": "The Aircraft of Choice - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-bell-407-and-the-michigan-state-police",
+    "referenceTitle": "The Bell 407 and the Michigan State Police - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-bell-basix-pro-glass-cockpit-retrofit-kit",
+    "referenceTitle": "The Bell BasiX-Pro Glass Cockpit Retrofit Kit - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-call-navigating-the-elements",
+    "referenceTitle": "Navigating the Elements - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-call-precision-flight-critical-care",
+    "referenceTitle": "Precision Flight, Critical Care - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-call-reaching-far-responding-fast",
+    "referenceTitle": "Reaching Far, Responding Fast - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-force-a-clear-path-to-advanced-operations",
+    "referenceTitle": "A Clear Path to Advanced Operations - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-force-bell-505-training-journey",
+    "referenceTitle": "A Bell 505 Training Journey - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-force-jamaica-defense-force",
+    "referenceTitle": "Jamaica Defense Force - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-force-the-storm",
+    "referenceTitle": "The Storm - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-future-of-marine-aviation-spine-h-1-fleet-upgrade",
+    "referenceTitle": "The Future of Marine Aviation: SPINE H-1 Fleet Upgrade - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-many-missions-of-the-delaware-state-police-aviation-section",
+    "referenceTitle": "The Many Missions of the Delaware State Police Aviation Section - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-patrol-dedication",
+    "referenceTitle": "Dedication - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-patrol-easy",
+    "referenceTitle": "Easy - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-patrol-spotlight",
+    "referenceTitle": "Spotlight - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-patrol-worth",
+    "referenceTitle": "Worth - Bell Videossocial-video-youtube-clipcalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/the-power-of-partnership-bells-support-teams",
+    "referenceTitle": "The Power of Partnership: Bell\u2019s Support Teams - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/train-with-confidence",
+    "referenceTitle": "Train with Confidence - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/utility-missions-with-capitol-helicopters",
+    "referenceTitle": "Utility Missions with Capitol Helicopters - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/v-22-investing-in-the-future-osprey",
+    "referenceTitle": "V-22 - Investing in the Future Osprey - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/v-22-the-tiltrotor-difference",
+    "referenceTitle": "V-22: The Tiltrotor Difference - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/what-is-spine-h-1-fleet-upgrade",
+    "referenceTitle": "What is SPINE? H-1 Fleet Upgrade - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/why-air-zermatt-relies-on-the-bell-429-for-high-altitude-rescues",
+    "referenceTitle": "Why Air Zermatt relies on the Bell 429 for high-altitude rescues - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/why-global-fire-agencies-rely-on-bell-mediums",
+    "referenceTitle": "Why Global Fire Agencies Rely on Bell Mediums - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/why-spine-matters-h-1-fleet-upgrade",
+    "referenceTitle": "Why SPINE Matters: H-1 Fleet Upgrade - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/videos/why-this-bell-505-owners-says-its-the-only-way",
+    "referenceTitle": "Why this Bell 505 owners says it's the only way - Bell Videoscalendar-checktime-stopwatch-3-quarters",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/video-series/christian-palmaz-bell-429-experience",
+    "referenceTitle": "The Bell 429 Experience Video Series | Bell",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/video-series/revolutionary-maneuver",
+    "referenceTitle": "Revolutionary Maneuver Video Series | Bell",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/video-series/starting-up",
+    "referenceTitle": "Starting Up Video Series | Bell",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/video-series/the-call",
+    "referenceTitle": "The Call Video Series | Bell",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/video-series/the-force",
+    "referenceTitle": "The Force Video Series | Bell",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  },
+  {
+    "reference": "https://www.bellflight.com/video-series/the-patrol",
+    "referenceTitle": "The Patrol Video Series | Bell",
+    "celestium": "/videos",
+    "adaptation": "Aircraft-only reference library; people-focused testimonials excluded",
+    "referenceStatus": 200
+  }
+]

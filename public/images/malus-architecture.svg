@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625">
+  <defs><pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#a8b9a7" stroke-opacity=".2"/></pattern></defs>
+  <rect width="1000" height="625" fill="#e8ede6"/><rect x="45" y="45" width="910" height="535" fill="url(#grid)"/>
+  <g fill="none" stroke="#5d7861" stroke-width="2">
+    <path d="M500 90c-42 0-78 72-82 128v140c2 68 40 125 60 155h44c20-30 58-87 60-155V218c-4-56-40-128-82-128Z" fill="#e8ede6"/>
+    <path d="M421 218l44-43h70l44 43M465 187v44h70v-44M418 376h164M500 65v475" stroke-dasharray="7 8"/>
+    <path d="M418 267h-65v43h65M582 267h65v43h-65M478 454H344v33h142M522 454h134v33H514"/>
+    <circle cx="252" cy="289" r="103" fill="#e8ede6"/><circle cx="252" cy="289" r="88"/><circle cx="252" cy="289" r="19"/>
+    <circle cx="748" cy="289" r="103" fill="#e8ede6"/><circle cx="748" cy="289" r="88"/><circle cx="748" cy="289" r="19"/>
+    <path d="M170 290h164M252 207v164M666 290h164M748 207v164" stroke-opacity=".5"/>
+  </g>
+  <rect x="441" y="248" width="118" height="126" rx="7" fill="#dccdbb" stroke="#a86440" stroke-width="2"/>
+  <path d="M453 260h93v101h-93Z M453 260l93 101M546 260l-93 101" fill="none" stroke="#a86440" stroke-width="1.5"/>
+  <g font-family="monospace" font-size="14" letter-spacing="2" fill="#4f6853"><text x="65" y="78">MALUS / COMMON PLATFORM</text><text x="65" y="560">MISSION INTERFACE</text><text x="695" y="560">TOP-VIEW SCHEMATIC</text></g>
+</svg>

@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MALUS & Taraka X-1 - Program brief</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #20282c;
+        font-size: 11px;
+        line-height: 1.65;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .sheet {
+        width: 210mm;
+        height: 297mm;
+        padding: 18mm;
+        position: relative;
+        break-after: page;
+        overflow: hidden;
+        background: #f6f7f4;
+      }
+      .sheet:last-child {
+        break-after: auto;
+      }
+      .topline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccd7cc;
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+      }
+      .brand {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .brand svg {
+        width: 24px;
+        height: 20px;
+      }
+      .chapter {
+        font-size: 8px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #607266;
+      }
+      .kicker {
+        font-size: 8px;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        color: #566a5a;
+        margin: 0 0 18px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      p {
+        margin-top: 0;
+      }
+      h1 {
+        font-size: 51px;
+        line-height: 1.08;
+        font-weight: 400;
+        letter-spacing: -0.055em;
+        margin-bottom: 26px;
+      }
+      h2 {
+        font-size: 38px;
+        line-height: 1.13;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+        margin-bottom: 22px;
+      }
+      h3 {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+        letter-spacing: -0.025em;
+        margin-bottom: 12px;
+      }
+      .lede {
+        font-size: 15px;
+        line-height: 1.7;
+        max-width: 490px;
+      }
+      .muted {
+        color: #607266;
+      }
+      .footer {
+        position: absolute;
+        bottom: 14mm;
+        left: 18mm;
+        right: 18mm;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #cbd6ca;
+        padding-top: 12px;
+        font-size: 7px;
+        letter-spacing: 0.04em;
+        color: #607266;
+      }
+      .cover {
+        background: #131313;
+        color: #f3f5ef;
+        padding: 18mm 18mm 0;
+      }
+      .cover .topline {
+        border-color: #555b54;
+      }
+      .cover .chapter,
+      .cover .kicker {
+        color: #c4d0bf;
+      }
+      .cover h1 {
+        font-size: 57px;
+        position: relative;
+        z-index: 2;
+        margin-top: 40px;
+      }
+      .cover .lede {
+        color: #c4d0bf;
+        font-size: 13px;
+        max-width: 410px;
+        position: relative;
+        z-index: 2;
+      }
+      .cover-image {
+        width: 210mm;
+        height: 133mm;
+        object-fit: cover;
+        object-position: right center;
+        margin-left: -18mm;
+        margin-top: 5mm;
+        display: block;
+      }
+      .cover-note {
+        font-size: 6px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: -12mm;
+        position: relative;
+      }
+      .cover .footer {
+        border-color: #555b54;
+        color: #c4d0bf;
+      }
+      .cover .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: 27mm;
+        left: 18mm;
+        right: 18mm;
+      }
+      .cover .bottom strong {
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: -0.025em;
+      }
+      .cover .bottom span {
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+      .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+      }
+      .three-col {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+      }
+      .rule-block {
+        border-top: 1px solid #b8c9b6;
+        padding-top: 18px;
+        margin-top: 28px;
+      }
+      .rule-block p {
+        color: #607266;
+      }
+      .system {
+        background: #e8ede6;
+        padding: 27px;
+        margin: 26px 0;
+      }
+      .system h3 {
+        font-size: 28px;
+        letter-spacing: 0.025em;
+        border-bottom: 1px solid #b8c9b6;
+        padding-bottom: 20px;
+      }
+      .system strong {
+        font-size: 13px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .system p {
+        font-size: 10px;
+        color: #607266;
+        margin-bottom: 0;
+      }
+      .system .interface {
+        font-size: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border-block: 1px solid #b8c9b6;
+        padding: 13px;
+        margin: 23px 0;
+      }
+      .photo {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+      .caption {
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+        color: #607266;
+        border-bottom: 1px solid #cbd6ca;
+        padding: 9px 0 13px;
+        line-height: 1.5;
+      }
+      .aircraft-image {
+        height: 83mm;
+        margin-top: 15px;
+        mix-blend-mode: multiply;
+      }
+      .targets {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        background: #e8ede6;
+        padding: 23px;
+        margin-top: 24px;
+      }
+      .targets strong {
+        font-size: 37px;
+        font-weight: 400;
+        letter-spacing: -0.04em;
+        line-height: 1.2;
+      }
+      .targets strong span {
+        font-size: 11px;
+        letter-spacing: 0;
+        margin-left: 5px;
+      }
+      .targets p {
+        font-size: 8px;
+        color: #536c59;
+        margin: 10px 0 0;
+      }
+      .note {
+        font-size: 8px;
+        line-height: 1.8;
+        color: #607266;
+        margin-top: 15px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10px;
+      }
+      th {
+        text-align: left;
+        font-weight: 500;
+        font-size: 8px;
+        text-transform: uppercase;
+        color: #607266;
+      }
+      th,
+      td {
+        padding: 11px 0;
+        border-bottom: 1px solid #cbd6ca;
+        vertical-align: top;
+      }
+      td:last-child {
+        text-align: right;
+      }
+      .mission-image {
+        height: 75mm;
+        margin-top: 20px;
+        object-position: center 52%;
+      }
+      .allocation {
+        margin-top: 23px;
+      }
+      .allocation h3 {
+        font-size: 25px;
+      }
+      .energy {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 18px;
+        background: #e8ede6;
+        padding: 25px;
+        margin-top: 25px;
+      }
+      .energy div {
+        border: 1px solid #aac0a7;
+        padding: 18px 12px;
+        font-size: 10px;
+      }
+      .energy strong {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+      .energy .bus {
+        grid-column: 1/-1;
+        text-align: center;
+        background: #d8e4d2;
+        border-color: #93af8f;
+        text-transform: uppercase;
+        font-size: 8px;
+        letter-spacing: 0.1em;
+        padding: 12px;
+      }
+      .work-list {
+        margin: 24px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+      .work-list li {
+        display: grid;
+        grid-template-columns: 27px 1fr;
+        gap: 17px;
+        border-top: 1px solid #cbd6ca;
+        padding: 15px 0;
+      }
+      .work-list li > span {
+        font-size: 8px;
+        color: #607266;
+        padding-top: 4px;
+      }
+      .work-list h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+      .work-list p {
+        font-size: 10px;
+        color: #607266;
+        margin-bottom: 0;
+      }
+      .status {
+        padding: 18px 22px;
+        background: #e8ede6;
+        font-size: 10px;
+        margin: 25px 0;
+      }
+      .status strong {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      .source-note {
+        font-size: 8px;
+        line-height: 1.8;
+        color: #607266;
+        margin-top: 23px;
+      }
+      .source-note code {
+        font-size: 7px;
+        word-break: break-word;
+      }
+      .small-heading {
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="sheet cover">
+      <div class="topline">
+        <div class="brand">
+          <svg viewBox="0 0 72 58" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 21C1 13 15 9 25 12C35 14 41 24 47 23C53 22 59 20 61 17C59 30 66 40 66 53" />
+              <path d="M25 3C27 9 26 30 26 53" />
+            </g></svg
+          >MALUS
+        </div>
+        <span class="chapter">Program brief / October 2026</span>
+      </div>
+      <p class="kicker">Introducing MALUS</p>
+      <h1>Modular Aerial Lift<br />Utility System.</h1>
+      <p class="lede">
+        An electric and hybrid VTOL research program. Introducing Taraka X-1, its first aircraft concept,
+        using hydrogen-electric propulsion for the medical ambulance mission.
+      </p>
+      <img class="cover-image" src="./images/taraka-dawn-v2.jpg" alt="Taraka X-1 concept aircraft" />
+      <p class="cover-note">Illustrative concept rendering</p>
+      <div class="bottom"><strong>Taraka X-1</strong><span>Concept development</span></div>
+      <div class="footer"><span>MALUS / Research concept overview</span><span>01 / 06</span></div>
+    </section>
+    <section class="sheet">
+      <div class="topline">
+        <div class="brand">
+          <svg viewBox="0 0 72 58" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 21C1 13 15 9 25 12C35 14 41 24 47 23C53 22 59 20 61 17C59 30 66 40 66 53" />
+              <path d="M25 3C27 9 26 30 26 53" />
+            </g></svg
+          >MALUS
+        </div>
+        <span class="chapter">01 / The architecture</span>
+      </div>
+      <p class="kicker">Shared engineering. Different missions.</p>
+      <h2>One foundation.<br />Many possibilities.</h2>
+      <p class="lede">
+        MALUS is the Modular Aerial Lift Utility System, the program under which electric and hybrid VTOL
+        aircraft are developed in this research. Taraka X-1 is the first aircraft, created for medical
+        ambulance transport.
+      </p>
+      <div class="system">
+        <h3>MALUS</h3>
+        <div class="three-col">
+          <div>
+            <strong>Lift system</strong>
+            <p>Tilting ducts and electric propulsion.</p>
+          </div>
+          <div>
+            <strong>Energy system</strong>
+            <p>Hydrogen storage, fuel cell and battery buffer.</p>
+          </div>
+          <div>
+            <strong>Flight control</strong>
+            <p>Thrust and tilt coordinated through transition.</p>
+          </div>
+        </div>
+        <div class="interface">Defined mission interface</div>
+        <div class="three-col">
+          <div>
+            <strong>Medical</strong>
+            <p>Patient litter, clinical team and equipment.</p>
+          </div>
+          <div>
+            <strong>Cargo</strong>
+            <p>Utility pallet and a tie-down arrangement.</p>
+          </div>
+          <div>
+            <strong>Research</strong>
+            <p>Instrumentation, ballast and an engineer’s station.</p>
+          </div>
+        </div>
+      </div>
+      <div class="two-col rule-block">
+        <div>
+          <h3>The platform stays.</h3>
+          <p>
+            Common propulsion, energy and flight systems provide the aircraft baseline. Taraka X-1 is the
+            first concept application.
+          </p>
+        </div>
+        <div>
+          <h3>The interface matters.</h3>
+          <p>
+            Attachments, electrical services, mass limits, restraints and loading access must be specified and
+            validated for each module.
+          </p>
+        </div>
+      </div>
+      <p class="note">
+        Medical ambulance transport defines Taraka X-1. Cargo and research installations are wider program
+        architecture studies. Module interfaces remain to be developed and validated.
+      </p>
+      <div class="footer"><span>MALUS / Research concept overview</span><span>02 / 06</span></div>
+    </section>
+    <section class="sheet">
+      <div class="topline">
+        <div class="brand">
+          <svg viewBox="0 0 72 58" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 21C1 13 15 9 25 12C35 14 41 24 47 23C53 22 59 20 61 17C59 30 66 40 66 53" />
+              <path d="M25 3C27 9 26 30 26 53" />
+            </g></svg
+          >MALUS
+        </div>
+        <span class="chapter">02 / The first aircraft</span>
+      </div>
+      <p class="kicker">Vertical lift. Regional ambition.</p>
+      <h2>Introducing Taraka X-1.</h2>
+      <p class="lede">
+        Created for the medical ambulance mission, Taraka X-1 combines twin tilting ducts, a hydrogen-electric
+        powertrain and a dedicated medical cabin.
+      </p>
+      <img
+        class="photo aircraft-image"
+        src="./images/taraka-coastal-flight-v2.jpg"
+        alt="Taraka X-1 twin-duct concept"
+      />
+      <div class="caption">
+        <span>Taraka X-1 / Twin-duct research configuration</span><span>Illustrative concept rendering</span>
+      </div>
+      <div class="targets">
+        <div>
+          <strong>450<span>km/h</span></strong>
+          <p>Target cruise speed</p>
+        </div>
+        <div>
+          <strong>1,500<span>km</span></strong>
+          <p>Target design range</p>
+        </div>
+        <div>
+          <strong>600<span>kg</span></strong>
+          <p>Mission load target</p>
+        </div>
+      </div>
+      <p class="note">
+        Research targets, subject to validation. The medical mission load includes the pilot, clinical team,
+        patient and equipment.
+      </p>
+      <table>
+        <tr>
+          <th>Configuration input</th>
+          <th style="text-align: right">Nominal study</th>
+        </tr>
+        <tr>
+          <td>Duct diameter / total disk area</td>
+          <td>2 × 2.80 m / 12.315 m²</td>
+        </tr>
+        <tr>
+          <td>Takeoff mass - original convergence</td>
+          <td>1,537 kg</td>
+        </tr>
+        <tr>
+          <td>Hover / cruise power</td>
+          <td>495 / 235 kW</td>
+        </tr>
+      </table>
+      <p class="note">
+        The original mass convergence omitted the hydrogen tank vessel. Hover power, battery mass and range
+        require integrated re-sizing with that mass included.
+      </p>
+      <div class="footer"><span>MALUS / Research concept overview</span><span>03 / 06</span></div>
+    </section>
+    <section class="sheet">
+      <div class="topline">
+        <div class="brand">
+          <svg viewBox="0 0 72 58" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 21C1 13 15 9 25 12C35 14 41 24 47 23C53 22 59 20 61 17C59 30 66 40 66 53" />
+              <path d="M25 3C27 9 26 30 26 53" />
+            </g></svg
+          >MALUS
+        </div>
+        <span class="chapter">03 / The first mission</span>
+      </div>
+      <p class="kicker">Civilian medical transport</p>
+      <h2>Critical care.<br />Beyond the road.</h2>
+      <p class="lede">
+        Taraka X-1 is created for medical ambulance transport. The design case explores regional patient
+        transfers in India. The patient, the clinical team and their equipment define the cabin and mission
+        load.
+      </p>
+      <img
+        class="photo mission-image"
+        src="./images/taraka-medical-dusk-v2.jpg"
+        alt="Illustrative medical transport scene"
+      />
+      <div class="caption">
+        <span>Dedicated medical module / Concept scene</span><span>Illustrative artwork</span>
+      </div>
+      <div class="two-col allocation">
+        <div>
+          <h3>A cabin organised<br />around care.</h3>
+          <p>
+            One patient litter, three clinical seats and a critical-care console. Side access and an aft ramp
+            inform the loading concept.
+          </p>
+          <p class="muted">
+            Clearances, restraint systems, equipment power and ground-operation procedures remain part of the
+            cabin development work.
+          </p>
+        </div>
+        <div>
+          <table>
+            <tr>
+              <th>Mission load allocation</th>
+              <th style="text-align: right">Mass</th>
+            </tr>
+            <tr>
+              <td>Pilot</td>
+              <td>80 kg</td>
+            </tr>
+            <tr>
+              <td>Two EMTs</td>
+              <td>160 kg</td>
+            </tr>
+            <tr>
+              <td>Trauma paramedic</td>
+              <td>80 kg</td>
+            </tr>
+            <tr>
+              <td>Patient and litter</td>
+              <td>90 kg</td>
+            </tr>
+            <tr>
+              <td>Critical-care kit</td>
+              <td>190 kg</td>
+            </tr>
+            <tr>
+              <td><strong>Total target allocation</strong></td>
+              <td><strong>600 kg</strong></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p class="note">
+        No routes, operators, clinical response times or available transport services are implied. Performance
+        and operating limits remain unvalidated.
+      </p>
+      <div class="footer"><span>MALUS / Research concept overview</span><span>04 / 06</span></div>
+    </section>
+    <section class="sheet">
+      <div class="topline">
+        <div class="brand">
+          <svg viewBox="0 0 72 58" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 21C1 13 15 9 25 12C35 14 41 24 47 23C53 22 59 20 61 17C59 30 66 40 66 53" />
+              <path d="M25 3C27 9 26 30 26 53" />
+            </g></svg
+          >MALUS
+        </div>
+        <span class="chapter">04 / The engineering</span>
+      </div>
+      <p class="kicker">Connected systems</p>
+      <h2>Every system.<br />A common purpose.</h2>
+      <div class="two-col">
+        <div>
+          <h3>Twin tilting ducts</h3>
+          <p>
+            The duct inlet, rotor stations, barrel and diffuser operate as a single aerodynamic system. The
+            study uses two coaxial five-blade rotors and seven stator vanes per duct.
+          </p>
+          <p class="muted">
+            Oblique inlet flow, containment, duct drag, ground effects and acoustics require integrated
+            validation.
+          </p>
+        </div>
+        <div>
+          <h3>Active flight control</h3>
+          <p>
+            Coordinated thrust and duct tilt provide control in hover. Aerodynamic forces increasingly
+            contribute as the aircraft transitions toward forward flight.
+          </p>
+          <p class="muted">
+            Conversion corridor, control allocation and fault response remain open engineering work.
+          </p>
+        </div>
+      </div>
+      <div class="energy">
+        <div><strong>Liquid hydrogen</strong>Fuel storage and cryogenic vessel.</div>
+        <div><strong>Fuel cell</strong>Sustained cruise power.</div>
+        <div><strong>Battery buffer</strong>Supports peak demand.</div>
+        <div class="bus">Fuel cell + battery → Common DC bus → Inverters + duct motors</div>
+      </div>
+      <h3 class="small-heading">Nominal energy study</h3>
+      <table>
+        <tr>
+          <td>Fuel-cell output</td>
+          <td>235 kW</td>
+        </tr>
+        <tr>
+          <td>Battery mass</td>
+          <td>123 kg</td>
+        </tr>
+        <tr>
+          <td>Usable hydrogen allocation</td>
+          <td>42 kg</td>
+        </tr>
+        <tr>
+          <td>Additional tank vessel estimate</td>
+          <td>~68 kg at 38% gravimetric efficiency</td>
+        </tr>
+      </table>
+      <p class="note">
+        The tank estimate is a budget input, not a released tank design. Cooling, plumbing, insulation,
+        reserves and the full mission energy budget need to be carried through the next convergence.
+      </p>
+      <div class="rule-block">
+        <h3>The interactive studio</h3>
+        <p>
+          The website’s aircraft geometry and analytic flow illustration support configuration exploration.
+          They do not constitute a validated flight-dynamics simulation or a CFD solution.
+        </p>
+      </div>
+      <div class="footer"><span>MALUS / Research concept overview</span><span>05 / 06</span></div>
+    </section>
+    <section class="sheet">
+      <div class="topline">
+        <div class="brand">
+          <svg viewBox="0 0 72 58" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 21C1 13 15 9 25 12C35 14 41 24 47 23C53 22 59 20 61 17C59 30 66 40 66 53" />
+              <path d="M25 3C27 9 26 30 26 53" />
+            </g></svg
+          >MALUS
+        </div>
+        <span class="chapter">05 / The work ahead</span>
+      </div>
+      <p class="kicker">An open research basis</p>
+      <h2>A clear ambition.<br />A defined next step.</h2>
+      <div class="status">
+        <strong>Concept development</strong>The aircraft has not flown. The current work consists of
+        architecture studies, preliminary sizing and exploratory geometry.
+      </div>
+      <ol class="work-list">
+        <li>
+          <span>01</span>
+          <div>
+            <h3>Close the mass and energy budget.</h3>
+            <p>
+              Re-converge the configuration with the vessel and thermal systems included, then reconcile hover
+              demand and range.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span>02</span>
+          <div>
+            <h3>Validate the physical configuration.</h3>
+            <p>
+              Establish structural mass, duct containment, tilt loads, occupant provisions and a consistent
+              empennage baseline.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span>03</span>
+          <div>
+            <h3>Establish transition and fault response.</h3>
+            <p>Model aerodynamic interactions and control authority across the conversion corridor.</p>
+          </div>
+        </li>
+        <li>
+          <span>04</span>
+          <div>
+            <h3>Test the acoustic and ground-flow assumptions.</h3>
+            <p>Measure component behaviour and define practical operating limits for the intended mission.</p>
+          </div>
+        </li>
+        <li>
+          <span>05</span>
+          <div>
+            <h3>Define the mission interface.</h3>
+            <p>Specify module attachment, services, mass properties, restraints and loading access.</p>
+          </div>
+        </li>
+      </ol>
+      <div class="source-note">
+        <strong>Design basis and provenance</strong><br />This brief uses the September 2026 twin-duct
+        architecture document:<br /><code>docs/07_TWIN_DUCT_AMBULANCE_ARCHITECTURE.md</code><br />The
+        repository includes other configuration studies and a different sizing run. Their results are not
+        merged into this nominal point. The visual H-tail and document V-tail require reconciliation.
+        Additional design notes and the duct-diameter dataset are available in the website’s Research
+        resources.<br /><br />Edition 1.1 · 7 October 2026 · Prepared from the project research material for
+        the MALUS website.
+      </div>
+      <div class="footer"><span>MALUS / Research concept overview</span><span>06 / 06</span></div>
+    </section>
+  </body>
+</html>
