@@ -9,7 +9,6 @@ import { ALL_ROUTES } from "@/lib/routes";
 import { SITE } from "@/lib/site";
 import { ArrowUpRight, ArrowRight, Download } from "./icons";
 import { CelestiumMark } from "./celestium-mark";
-import { BrandMark as Mark } from "./brand-mark";
 
 export function Chrome({
   tone = "solid",
@@ -353,4 +352,3 @@ export function Chrome({
     </>
   );
 }
-export { Mark };
