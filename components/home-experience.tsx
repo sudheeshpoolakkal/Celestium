@@ -134,7 +134,7 @@ const slides = [
 
 export function HomeExperience() {
   const [active, setActive] = useState(0);
-  const [playing, setPlaying] = useState(false);
+  const [playing, setPlaying] = useState(true);
   const [reduced, setReduced] = useState(false);
   const hero = useRef<HTMLElement>(null);
   useEffect(() => {
