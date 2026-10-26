@@ -567,6 +567,22 @@ body {
 .c-home-hero-copy {
   padding-block: 185px 170px;
   position: relative;
+  animation: c-hero-copy-enter 0.55s var(--c-ease);
+}
+@keyframes c-hero-copy-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .c-home-hero-copy {
+    animation: none;
+  }
 }
 .c-home-hero-copy > .c-eyebrow {
   font-size: 9px;
@@ -591,6 +607,10 @@ body {
 }
 .c-home-hero-copy > .c-button {
   margin: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.28);
+}
+.c-home-hero-copy > .c-button:hover {
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.4);
 }
 .c-home-hero-bottom {
   position: absolute;
@@ -662,11 +682,16 @@ body {
   font-size: 11px;
   text-align: left;
   white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.2s var(--c-ease);
 }
 .c-hero-slides button > span:first-child {
   font-family: var(--mono);
   font-size: 8px;
   opacity: 0.5;
+}
+.c-hero-slides button:hover {
+  color: white;
 }
 .c-hero-slides button[aria-pressed="true"] {
   color: white;
@@ -678,9 +703,27 @@ body {
   right: 0;
   height: 2px;
   background: transparent;
+  transform-origin: left center;
 }
 .c-hero-slides button[aria-pressed="true"] .c-slide-track {
   background: var(--c-accent);
+}
+.c-hero-slides[data-playing="true"] button[aria-pressed="true"] .c-slide-track {
+  animation: c-slide-progress 5s linear forwards;
+}
+@keyframes c-slide-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .c-hero-slides[data-playing="true"] button[aria-pressed="true"] .c-slide-track {
+    animation: none;
+    transform: scaleX(1);
+  }
 }
 .c-slideshow-play {
   display: grid;
@@ -692,6 +735,16 @@ body {
   border-radius: 50%;
   color: white;
   background: transparent;
+  cursor: pointer;
+  transition:
+    background 0.2s var(--c-ease),
+    border-color 0.2s,
+    transform 0.2s var(--c-ease);
+}
+.c-slideshow-play:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.7);
+  transform: scale(1.06);
 }
 .c-slideshow-play:disabled {
   opacity: 0.35;

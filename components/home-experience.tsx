@@ -171,7 +171,12 @@ export function HomeExperience() {
         <span>CELESTIUM / FLIGHT FRONTIERS</span>
         <span>RESEARCH. REIMAGINED.</span>
       </div>
-      <div className="c-container c-home-hero-copy" aria-live={playing ? "off" : "polite"} aria-atomic="true">
+      <div
+        className="c-container c-home-hero-copy"
+        key={slide.label}
+        aria-live={playing ? "off" : "polite"}
+        aria-atomic="true"
+      >
         <p className="c-eyebrow">
           <span />
           {String(active + 1).padStart(2, "0")} / {slide.eyebrow}
@@ -196,7 +201,12 @@ export function HomeExperience() {
       </div>
       <div className="c-hero-flight-bar">
         <div className="c-container">
-          <div className="c-hero-slides" role="group" aria-label="Choose a flight story">
+          <div
+            className="c-hero-slides"
+            role="group"
+            aria-label="Choose a flight story"
+            data-playing={playing}
+          >
             {slides.map((s, i) => (
               <button
                 key={s.label}
@@ -209,7 +219,7 @@ export function HomeExperience() {
               >
                 <span>{String(i + 1).padStart(2, "0")}</span>
                 {s.label}
-                <span className="c-slide-track" />
+                <span className="c-slide-track" key={active === i && playing ? `${s.label}-play` : s.label} />
               </button>
             ))}
           </div>
