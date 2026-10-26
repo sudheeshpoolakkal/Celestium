@@ -162,7 +162,7 @@ export function HomeExperience() {
     const timer = window.setInterval(() => {
       if (!document.hidden && hero.current && hero.current.getBoundingClientRect().bottom > 100)
         setActive((i) => (i + 1) % slides.length);
-    }, 8000);
+    }, 5000);
     return () => window.clearInterval(timer);
   }, [playing, reduced]);
   const slide = slides[active];
