@@ -237,7 +237,23 @@ test("the skip link transfers keyboard focus to the content", async ({ page }) =
 
 test("Celestium keeps its aircraft concept and technology references clear", async ({ page }) => {
   await page.goto("/");
+  const malus = page.locator("h1.c-malus-name");
+  await expect(malus).toContainText("MALUS");
+  await expect(malus).toContainText("Modular Aerial");
+  await expect(malus).toContainText("Lift Utility");
+  await expect(malus).toContainText("System");
+  await expect(page.getByRole("link", { name: "Explore MALUS", exact: true })).toHaveAttribute(
+    "href",
+    "/program",
+  );
+  const heroBox = await page.locator(".c-home-hero").boundingBox();
+  const nameBox = await malus.boundingBox();
+  expect(nameBox && heroBox).toBeTruthy();
+  expect(nameBox!.y).toBeGreaterThanOrEqual(heroBox!.y);
+  expect(nameBox!.y + nameBox!.height).toBeLessThanOrEqual(heroBox!.y + heroBox!.height);
+  await page.getByRole("button", { name: "Show Tiltrotor story" }).click();
   await expect(page.locator("h1")).toContainText("The future has");
+  await expect(page.getByRole("link", { name: "MALUS, Modular Aerial Lift Utility System" })).toBeVisible();
   await page.getByRole("button", { name: "Show Taraka X-1 story" }).click();
   await expect(page.locator(".c-home-hero-copy")).toContainText("hydrogen-electric");
   await expect(page.locator(".c-home-hero-bottom")).toContainText("Celestium / Concept visualization");
