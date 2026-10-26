@@ -32,7 +32,7 @@ systemctl --user stop celestium-preview
 
 | Area           | Main destinations and behavior                                                                                      |
 | -------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Home           | Seven flight stories starting with the MALUS research program, manual selection, optional playback and five keyboard-operated mission tabs |
+| Home           | Seven flight stories connecting tiltrotor flight, the MALUS research program and aircraft concepts, with manual selection, optional playback and five keyboard-operated mission tabs |
 | Aircraft       | `/products`: six filterable architecture studies, sorting, empty states and comparison of up to three studies       |
 | Tiltrotor      | `/products/tiltrotor`: hover, transition and cruise schematic with an adjustable propulsion angle                   |
 | HSVTOL         | `/innovation/hsvtol`: folding-rotor perspective, flight modes and two aircraft-only Bell animations                 |
