@@ -35,9 +35,9 @@ export const MEGA_NAV: NavGroup[] = [
       {
         title: "Explore the architecture",
         links: [
+          { label: "MALUS platform", href: "/program" },
           { label: "Tiltrotor", href: "/products/tiltrotor" },
           { label: "High-speed VTOL", href: "/innovation/hsvtol" },
-          { label: "MALUS platform", href: "/program" },
           { label: "Aircraft & airflow studio", href: "/aircraft/studio" },
           { label: "Product literature", href: "/products/literature" },
         ],
