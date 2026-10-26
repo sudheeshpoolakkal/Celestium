@@ -1,0 +1,6 @@
+.next-dev/
+.next-verify/
+playwright-report/
+test-results/
+docs/previews/
+tsconfig.tsbuildinfo

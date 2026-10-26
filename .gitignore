@@ -10,3 +10,6 @@ tsconfig.tsbuildinfo
 playwright-report
 test-results
 .env.local
+.vercel
+.env*
+!.env.example
