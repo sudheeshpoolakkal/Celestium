@@ -3,13 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { ArrowDown, ArrowUpRight } from "./icons";
-import { BrandMark } from "./brand-mark";
 import { FlightLink, MediaCredit } from "./flight-editorial";
 
 const slides = [
   {
     label: "Tiltrotor",
-    program: false,
     eyebrow: "The future of vertical flight",
     title: (
       <>
@@ -28,15 +26,12 @@ const slides = [
   },
   {
     label: "MALUS",
-    program: true,
-    eyebrow: "The research program",
+    eyebrow: "The MALUS research program",
     title: (
       <>
         Modular Aerial
         <br />
-        Lift Utility
-        <br />
-        System.
+        Lift Utility System.
       </>
     ),
     description:
@@ -49,7 +44,6 @@ const slides = [
   },
   {
     label: "HSVTOL",
-    program: false,
     eyebrow: "Beyond conventional flight",
     title: (
       <>
@@ -67,7 +61,6 @@ const slides = [
   },
   {
     label: "Taraka X-1",
-    program: false,
     eyebrow: "Our first aircraft concept",
     title: (
       <>
@@ -85,7 +78,6 @@ const slides = [
   },
   {
     label: "Missions",
-    program: false,
     eyebrow: "Purpose defines the platform",
     title: (
       <>
@@ -104,7 +96,6 @@ const slides = [
   },
   {
     label: "Innovation",
-    program: false,
     eyebrow: "An engineering mindset",
     title: (
       <>
@@ -123,7 +114,6 @@ const slides = [
   },
   {
     label: "Celestium",
-    program: false,
     eyebrow: "A new era of flight",
     title: (
       <>
@@ -169,30 +159,16 @@ export function HomeExperience() {
   return (
     <section
       ref={hero}
-      className={`c-home-hero${slide.program ? " is-program" : ""}`}
+      className="c-home-hero"
       aria-roledescription="carousel"
       aria-label="Explore the frontiers of flight"
     >
-      <div className={`c-home-hero-media${slide.program ? " is-program" : ""}`} key={slide.label}>
+      <div className="c-home-hero-media" key={slide.label}>
         <Image src={slide.image} alt={slide.alt} fill sizes="100vw" priority={active === 0} />
       </div>
       <div className="c-home-hero-shade" />
       <div className="c-container c-home-hero-top">
-        {slide.program ? (
-          <span>CELESTIUM / RESEARCH PROGRAM</span>
-        ) : (
-          <Link
-            href="/program"
-            className="c-malus-plate"
-            aria-label="MALUS, Modular Aerial Lift Utility System"
-          >
-            <BrandMark width={36} height={29} />
-            <span>
-              <strong>MALUS</strong>
-              <small>Modular Aerial Lift Utility System</small>
-            </span>
-          </Link>
-        )}
+        <span>CELESTIUM / FLIGHT FRONTIERS</span>
         <span>RESEARCH. REIMAGINED.</span>
       </div>
       <div className="c-container c-home-hero-copy" aria-live={playing ? "off" : "polite"} aria-atomic="true">
@@ -200,15 +176,7 @@ export function HomeExperience() {
           <span />
           {String(active + 1).padStart(2, "0")} / {slide.eyebrow}
         </p>
-        <h1 className={slide.program ? "c-malus-name" : undefined}>
-          {slide.program && (
-            <span className="c-malus-wordmark">
-              <BrandMark width={46} height={37} />
-              <span>MALUS</span>
-            </span>
-          )}
-          {slide.title}
-        </h1>
+        <h1>{slide.title}</h1>
         <p className="c-hero-description">{slide.description}</p>
         <FlightLink href={slide.href} light>
           {slide.action}
