@@ -543,15 +543,26 @@ body {
   right: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: var(--mono);
-  font-size: 8px;
-  letter-spacing: 0.12em;
-  color: #d5ddd8;
+  font-size: 8.5px;
+  letter-spacing: 0.14em;
+  color: #e2e8e4;
+  text-transform: uppercase;
+  z-index: 2;
+  pointer-events: none;
 }
-.c-home-hero-top > span:last-child {
-  background: #101b1ae6;
-  padding: 5px 8px;
-  margin: -5px -8px;
+.c-home-hero-top > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(16, 27, 26, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 2px;
+  line-height: 1.4;
 }
 .c-home-hero-copy {
   padding-block: 185px 170px;
