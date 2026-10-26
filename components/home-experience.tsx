@@ -8,6 +8,25 @@ import { FlightLink, MediaCredit } from "./flight-editorial";
 
 const slides = [
   {
+    label: "Tiltrotor",
+    program: false,
+    eyebrow: "The future of vertical flight",
+    title: (
+      <>
+        The future has
+        <br />
+        no runway.
+      </>
+    ),
+    description:
+      "The freedom of vertical lift. The reach of wing-borne flight. Explore a new perspective on what an aircraft can be.",
+    image: "/media/bell/tiltrotor-coast.webp",
+    alt: "Bell MV-75 aircraft concepts flying above a tropical coastline",
+    href: "/products/tiltrotor",
+    action: "Discover tiltrotor",
+    bell: true,
+  },
+  {
     label: "MALUS",
     program: true,
     eyebrow: "The research program",
@@ -27,25 +46,6 @@ const slides = [
     href: "/program",
     action: "Explore MALUS",
     bell: false,
-  },
-  {
-    label: "Tiltrotor",
-    program: false,
-    eyebrow: "The future of vertical flight",
-    title: (
-      <>
-        The future has
-        <br />
-        no runway.
-      </>
-    ),
-    description:
-      "The freedom of vertical lift. The reach of wing-borne flight. Explore a new perspective on what an aircraft can be.",
-    image: "/media/bell/tiltrotor-coast.webp",
-    alt: "Bell MV-75 aircraft concepts flying above a tropical coastline",
-    href: "/products/tiltrotor",
-    action: "Discover tiltrotor",
-    bell: true,
   },
   {
     label: "HSVTOL",
