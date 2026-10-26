@@ -52,7 +52,22 @@ export default function ResearchPage() {
     <Chrome tone="overlay">
       <RevealEffects />
       <article className="c-site editorial-page research-page">
-        <FlightHero eyebrow="Innovation / Research & development" title={<>A clear ambition.<br />An open design basis.</>} description="The aircraft concept, the assumptions and the work ahead. Explore the Taraka X-1 research design point, open mass questions and validation priorities." image="/images/taraka-hangar-v1.webp" alt="Taraka X-1 aircraft concept in a hangar" href="#design-basis" action="Review the design basis" bell={false}/>
+        <FlightHero
+          eyebrow="Innovation / Research & development"
+          title={
+            <>
+              A clear ambition.
+              <br />
+              An open design basis.
+            </>
+          }
+          description="The aircraft concept, the assumptions and the work ahead. Explore the Taraka X-1 research design point, open mass questions and validation priorities."
+          image="/images/taraka-hangar-v1.webp"
+          alt="Taraka X-1 aircraft concept in a hangar"
+          href="#design-basis"
+          action="Review the design basis"
+          bell={false}
+        />
         <section className="editorial-section container section-first" id="design-basis">
           <SectionLabel number="01" detail="September 2026 / Twin-duct study">
             The configuration behind the figures

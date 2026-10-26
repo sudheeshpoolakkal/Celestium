@@ -18,7 +18,22 @@ export default function TechnologyPage() {
     <Chrome tone="overlay">
       <RevealEffects />
       <article className="c-site editorial-page technology-page">
-        <FlightHero eyebrow="Innovation / Engineering & systems" title={<>Engineering<br />the whole aircraft.</>} description="Lift, energy and control are connected decisions. Explore the systems behind the hydrogen-electric Taraka X-1 concept." image="/images/taraka-powertrain-cutaway-v1.webp" alt="Taraka X-1 hydrogen-electric powertrain concept illustration" href="#ducted-lift" action="Explore the systems" bell={false}/>
+        <FlightHero
+          eyebrow="Innovation / Engineering & systems"
+          title={
+            <>
+              Engineering
+              <br />
+              the whole aircraft.
+            </>
+          }
+          description="Lift, energy and control are connected decisions. Explore the systems behind the hydrogen-electric Taraka X-1 concept."
+          image="/images/taraka-powertrain-cutaway-v1.webp"
+          alt="Taraka X-1 hydrogen-electric powertrain concept illustration"
+          href="#ducted-lift"
+          action="Explore the systems"
+          bell={false}
+        />
         <section className="editorial-section container section-first" id="ducted-lift">
           <SectionLabel number="01" detail="Duct geometry / Propulsion">
             Twin tilting ducts

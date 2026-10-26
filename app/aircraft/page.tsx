@@ -26,7 +26,13 @@ export default function AircraftPage() {
       <article className="c-site aircraft-product editorial-page">
         <FlightHero
           eyebrow="Aircraft / Taraka X-1"
-          title={<>Taraka X-1.<br />Created for care.</>}
+          title={
+            <>
+              Taraka X-1.
+              <br />
+              Created for care.
+            </>
+          }
           description="Hydrogen-electric propulsion. Twin tilting ducts. A dedicated medical cabin. The first aircraft concept under the MALUS research program."
           image="/images/taraka-coastal-flight-v2.webp"
           alt="Celestium Taraka X-1 twin-duct aircraft concept above a tropical coastline"

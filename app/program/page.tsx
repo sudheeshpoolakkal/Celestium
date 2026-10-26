@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import { Chrome } from "@/components/chrome";
 import { FlightHero } from "@/components/flight-editorial";
-import {
-  ActionLink,
-  Figure,
-  ProgramBrief,
-  RelatedPages,
-  SectionLabel,
-} from "@/components/editorial";
+import { ActionLink, Figure, ProgramBrief, RelatedPages, SectionLabel } from "@/components/editorial";
 import { ModuleExplorer, RevealEffects } from "@/components/landing-interactions";
 import { ArchitectureMap } from "@/components/system-diagrams";
 
@@ -40,7 +34,22 @@ export default function ProgramPage() {
     <Chrome tone="overlay">
       <RevealEffects />
       <article className="c-site editorial-page architecture-page">
-        <FlightHero eyebrow="Aircraft / The MALUS research program" title={<>Modular Aerial<br />Lift Utility System.</>} description="A research program for electric and hybrid vertical flight. Taraka X-1 is its first aircraft concept, created for medical ambulance transport." image="/images/taraka-dawn-v2.webp" alt="Taraka X-1 aircraft concept on a coastal apron at dawn" href="#architecture-system" action="Explore the architecture" bell={false}/>
+        <FlightHero
+          eyebrow="Aircraft / The MALUS research program"
+          title={
+            <>
+              Modular Aerial
+              <br />
+              Lift Utility System.
+            </>
+          }
+          description="A research program for electric and hybrid vertical flight. Taraka X-1 is its first aircraft concept, created for medical ambulance transport."
+          image="/images/taraka-dawn-v2.webp"
+          alt="Taraka X-1 aircraft concept on a coastal apron at dawn"
+          href="#architecture-system"
+          action="Explore the architecture"
+          bell={false}
+        />
         <section className="architecture-diagram-section container" id="architecture-system">
           <ArchitectureMap />
           <p className="data-note">
