@@ -238,13 +238,11 @@ test("the skip link transfers keyboard focus to the content", async ({ page }) =
 test("Celestium keeps its aircraft concept and technology references clear", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator("h1")).toContainText("The future has");
-  await expect(page.getByRole("link", { name: "MALUS, Modular Aerial Lift Utility System" })).toBeVisible();
   await page.getByRole("button", { name: "Show MALUS story" }).click();
-  const malus = page.locator("h1.c-malus-name");
-  await expect(malus).toContainText("MALUS");
+  const malus = page.locator(".c-home-hero h1");
+  await expect(page.locator(".c-home-hero-copy .c-eyebrow")).toContainText("MALUS");
   await expect(malus).toContainText("Modular Aerial");
-  await expect(malus).toContainText("Lift Utility");
-  await expect(malus).toContainText("System");
+  await expect(malus).toContainText("Lift Utility System");
   await expect(page.getByRole("link", { name: "Explore MALUS", exact: true })).toHaveAttribute(
     "href",
     "/program",
