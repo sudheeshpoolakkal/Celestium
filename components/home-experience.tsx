@@ -163,7 +163,7 @@ export function HomeExperience() {
       aria-roledescription="carousel"
       aria-label="Explore the frontiers of flight"
     >
-      <div className="c-home-hero-media" key={slide.label}>
+      <div className="c-home-hero-media" key={`hero-media-${slide.label}`}>
         <Image src={slide.image} alt={slide.alt} fill sizes="100vw" priority={active === 0} />
       </div>
       <div className="c-home-hero-shade" />
@@ -173,7 +173,7 @@ export function HomeExperience() {
       </div>
       <div
         className="c-container c-home-hero-copy"
-        key={slide.label}
+        key={`hero-copy-${slide.label}`}
         aria-live={playing ? "off" : "polite"}
         aria-atomic="true"
       >
